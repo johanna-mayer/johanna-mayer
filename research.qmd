@@ -21,7 +21,7 @@ This work includes the use of convolutional neural networks for cloud-pattern cl
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](images/EarthCARE1.png){fig-align="left" width="95%"}
+![](images/EarthCARE1_cropped.png){fig-align="left" width="95%"}
 :::
 
 ::: {.column width="60%"}

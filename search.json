@@ -4,21 +4,21 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
+    "text": "{.columns} {.column width=“60%”} Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation.\n{.column width=“40%”}"
   },
   {
     "objectID": "research.html#mesoscale-organization-of-marine-stratocumulus",
     "href": "research.html#mesoscale-organization-of-marine-stratocumulus",
     "title": "Research",
     "section": "",
-    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
+    "text": "{.columns} {.column width=“60%”} Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation.\n{.column width=“40%”}"
   },
   {
     "objectID": "research.html#earthcare-and-multi-instrument-satellite-observations",
     "href": "research.html#earthcare-and-multi-instrument-satellite-observations",
     "title": "Research",
     "section": "EarthCARE and multi-instrument satellite observations",
-    "text": "EarthCARE and multi-instrument satellite observations\nA key element of my research is the combination of complementary satellite measurements. EarthCARE brings together active radar and lidar observations with passive imaging and radiative measurements, enabling cloud systems to be studied in three dimensions. I use these observations together with geostationary imagery to relate detailed vertical cloud properties to their broader spatial organization and temporal development.\nI am also exploring causal approaches to distinguish aerosol effects on stratocumulus clouds from meteorological and other confounding influences."
+    "text": "EarthCARE and multi-instrument satellite observations\n{.columns} {.column width=“60%”} A key element of my research is the combination of complementary satellite measurements. EarthCARE brings together active radar and lidar observations with passive imaging and radiative measurements, enabling cloud systems to be studied in three dimensions. I use these observations together with geostationary imagery to relate detailed vertical cloud properties to their broader spatial organization and temporal development.\nI am also exploring causal approaches to distinguish aerosol effects on stratocumulus clouds from meteorological and other confounding influences.\n{.column width=“40%”}"
   },
   {
     "objectID": "research.html#cloud-thermodynamic-phase",

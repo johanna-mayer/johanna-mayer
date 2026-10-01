@@ -14,7 +14,8 @@ This work includes the use of convolutional neural networks for cloud-pattern cl
 
 ::: {.column width="40%"}
 ![](images/MODIS_closed_open_cells_20260819.png){fig-align="center" width="100%"}
-
+:::
+::::
 
 ## EarthCARE and multi-instrument satellite observations
 
@@ -27,7 +28,8 @@ This work includes the use of convolutional neural networks for cloud-pattern cl
 A key element of my research is the combination of complementary satellite measurements. EarthCARE brings together active radar and lidar observations with passive imaging and radiative measurements, enabling cloud systems to be studied in three dimensions. I use these observations together with geostationary imagery to relate detailed vertical cloud properties to their broader spatial organization and temporal development.
 
 I am also exploring causal approaches to distinguish aerosol effects on stratocumulus clouds from meteorological and other confounding influences.
-
+:::
+::::
 
 ## Cloud thermodynamic phase
 

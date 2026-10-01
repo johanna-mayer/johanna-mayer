@@ -1,5 +1,0 @@
----
-title: "CV"
----
-
-Add your curriculum vitae here. You may wish to include sections for education, appointments, awards, teaching, and service.

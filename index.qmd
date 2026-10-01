@@ -1,7 +1,0 @@
----
-title: "Welcome"
----
-
-Welcome to my research website. Here you can learn about my research, explore my publications, and view my CV.
-
-Use the navigation above to find out more.

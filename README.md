@@ -1,2 +1,1 @@
-# quarto-site-template
-Example quarto site without R or Python!
+Research on atmosphere and clouds from satellites

@@ -2,4 +2,85 @@
 title: "CV"
 ---
 
-Add your curriculum vitae here. You may wish to include sections for education, appointments, awards, teaching, and service.
+## Current position
+
+**Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy**  
+*Since November 2024*
+
+- Research using EarthCARE and geostationary satellite observations to investigate marine stratocumulus structure and evolution
+- Integration of active and passive satellite measurements
+- Application of machine learning and causal methods in cloud research
+- Contribution to scientific coordination, contract support, workshops, seminars, and outreach
+
+## Previous research experience
+
+**Doctoral Candidate, German Aerospace Center (DLR), Institute of Atmospheric Physics**  
+*January 2021 – October 2024*
+
+- Developed a probabilistic retrieval of cloud thermodynamic phase for Meteosat Second Generation observations
+- Used synergistic lidar–radar satellite products and radiative transfer calculations
+- Supported airborne research campaigns through instrument operation, weather briefings, and flight planning
+
+**Research Assistant, Ludwig Maximilian University of Munich, Department of Statistical and Biological Physics**  
+*August 2018 – April 2020*
+
+- Analysed mathematical models coupling active matter and game theory
+- Developed and evaluated a numerical model of the system
+
+**Junior Data Analyst, Planetly, Berlin**  
+*May 2020 – December 2020*
+
+- Contributed to data collection and the development of a database for corporate carbon-footprint calculations
+
+## Education
+
+**Doctoral programme in Atmospheric Physics**  
+German Aerospace Center and Ludwig Maximilian University of Munich, 2021–2024  
+Research focus: passive satellite remote sensing of clouds and cloud thermodynamic phase
+
+**M.Sc. in Theoretical and Mathematical Physics**  
+Ludwig Maximilian University of Munich and Technical University of Munich, 2016–2019  
+Focus: complex systems, statistical physics, and information theory
+
+**Additional Master's Programme in Environmental Studies**  
+Rachel Carson Center for Environment and Society and Ludwig Maximilian University of Munich, 2017–2020
+
+**B.Sc. in Physics**  
+Ludwig Maximilian University of Munich, 2012–2016
+
+**Erasmus studies**  
+Université Pierre et Marie Curie, Paris, 2015–2016
+
+## Scientific leadership, service, and outreach
+
+- Organizer of the EarthCARE Science Seminar series
+- Co-supervisor of doctoral research on satellite climatologies of cloud phase
+- Science committee member for EarthCARE Science and Validation Workshops
+- Co-convener of an EarthCARE session at the EGU General Assembly
+- Reviewer for *Atmospheric Measurement Techniques*
+- Contributor to educational and public-engagement activities on Earth observation, climate research, and cloud physics
+- Experience designing interdisciplinary science communication activities that connect atmospheric science with visual art, music, and movement
+
+## Selected presentations and professional activities
+
+- Keynote and invited presentations on Earth observation, cloud science, artificial intelligence, and climate communication
+- Contributions to EarthCARE Science and Validation Workshops and EGU General Assemblies
+- Participation in specialist workshops on cloud processes, satellite observations, and Earth's energy balance
+- Invited expert in an interdisciplinary research sprint focused on innovative applications of Earth observation
+
+## Technical skills
+
+- **Programming and data analysis:** Python, statistical analysis, numerical modelling, Git, GitHub, GitLab
+- **Earth observation:** active and passive satellite products, multi-instrument analysis, retrieval development
+- **Methods:** machine learning, probabilistic retrievals, causal analysis, radiative transfer calculations
+- **Additional tools:** SQL, IDL, Mathematica, LaTeX
+
+## Languages
+
+- German: native
+- English: fluent
+- Italian: basic communication
+- French: basic
+- Nepali: basic
+
+For a complete list of peer-reviewed articles and other research outputs, see the [Publications](publications.qmd) page.

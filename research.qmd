@@ -1,0 +1,11 @@
+---
+title: "Research"
+---
+
+## Research overview
+
+Add an introduction to your research here, including the questions, topics, or methods that guide your work.
+
+## Current projects
+
+Describe your current projects and any collaborators or research groups you would like to highlight.

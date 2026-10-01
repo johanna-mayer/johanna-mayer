@@ -1,0 +1,5 @@
+---
+title: "Publications"
+---
+
+Add your publications here. You can include journal articles, books, preprints, and other scholarly work.

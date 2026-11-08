@@ -25,7 +25,7 @@ This work includes the use of convolutional neural networks for cloud-pattern cl
 :::
 
 ::: {.column width="52%"}
-A key element of my research is the combination of complementary satellite measurements. EarthCARE brings together active radar and lidar observations with passive imaging and radiative measurements, enabling cloud systems to be studied in three dimensions. I use these observations together with geostationary imagery to relate detailed vertical cloud properties to their broader spatial organization and temporal development.
+A key element of my research is the combination of complementary satellite measurements. EarthCARE brings together active radar and lidar observations with passive imaging and radiative measurements, enabling cloud systems to be studied in unprecedented detail. I use these observations together with geostationary imagery to relate detailed cloud properties to their broader spatial organization and temporal development.
 
 I am also exploring causal approaches to distinguish aerosol effects on stratocumulus clouds from meteorological and other confounding influences.
 :::
@@ -38,7 +38,7 @@ I am also exploring causal approaches to distinguish aerosol effects on stratocu
 ::: {.column width="52%"}
 During my doctoral research at the German Aerospace Center (DLR), I developed methods to retrieve cloud thermodynamic phase from satellite observations. This included a Bayesian cloud-top phase retrieval for the SEVIRI instrument aboard Meteosat Second Generation, trained and evaluated using combined lidar and radar observations from polar-orbiting satellites.
 
-My work also used radiative transfer calculations to examine how satellite brightness temperatures and their differences respond to cloud phase and related cloud properties. The aim was both to improve retrieval methods and to understand their physical sensitivities and limitations.
+My work also used radiative transfer calculations to examine how satellite measurements in the infrared respond to cloud phase and related cloud properties. The aim was both to improve retrieval methods and to understand their physical sensitivities and limitations.
 :::
 
 ::: {.column width="48%"}
@@ -51,7 +51,7 @@ My work also used radiative transfer calculations to examine how satellite brigh
 
 :::: {.columns}
 ::: {.column width="48%"}
-![](images/AC3_Polar6_cropped.png){fig-align="left" width="95%"}
+![](images/AC3_Polar6_cropped.jpeg){fig-align="left" width="95%"}
 :::
 
 ::: {.column width="52%"}

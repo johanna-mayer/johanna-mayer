@@ -2,4 +2,6 @@
 title: "Science meets Comics"
 ---
 
-Togehter with the illustrator Laura Mayer, I am working on scientific comic projects. These comics explain EarthCARE, its capabilities and why we need its measurements to a non-expert audience in an easy and fun way.
+Cloud science is fascinating, and I believe that a broad audience should be able to enjoy it and understand why it matters. Together with illustrator [Laura Mayer](https://lauramayer.space/), I am working on a series of scientific comics. They explain EarthCARE, what it can measure, and why these measurements are important in an easy and engaging way.
+
+The comics are still a work in progress and will be published on the ESA website by the end of this year. Stay tuned!

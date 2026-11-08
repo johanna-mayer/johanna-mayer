@@ -249,14 +249,14 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus structure and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
+    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
   },
   {
     "objectID": "cv.html#current-position",
     "href": "cv.html#current-position",
     "title": "CV",
     "section": "",
-    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus structure and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
+    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
   },
   {
     "objectID": "cv.html#previous-research-experience",
@@ -277,7 +277,7 @@
     "href": "cv.html#scientific-leadership-service-and-outreach",
     "title": "CV",
     "section": "Scientific leadership, service, and outreach",
-    "text": "Scientific leadership, service, and outreach\n\nOrganizer of the EarthCARE Science Seminar series\nCo-supervisor of doctoral research on satellite climatologies of cloud phase\nScience committee member for EarthCARE Science and Validation Workshops\nCo-convener of an EarthCARE session at the EGU General Assembly\nReviewer for Atmospheric Measurement Techniques\nContributor to educational and public-engagement activities on Earth observation, climate research, and cloud physics\nExperience designing interdisciplinary science communication activities that connect atmospheric science with visual art, music, and movement"
+    "text": "Scientific leadership, service, and outreach\n\nOrganizer of the EarthCARE Science Seminar series https://www.earthcarescience.net/seminars\nCo-supervisor of doctoral research on satellite climatologies of cloud phase\nScience committee member for EarthCARE Science and Validation Workshops\nCo-convener of an EarthCARE session at the EGU General Assembly\nReviewer for Atmospheric Measurement Techniques\nContributor to educational and public-engagement activities on Earth observation, climate research, and cloud physics\nExperience designing interdisciplinary science communication activities that connect atmospheric science with visual art, music, and movement"
   },
   {
     "objectID": "cv.html#selected-presentations-and-professional-activities",
@@ -291,14 +291,14 @@
     "href": "cv.html#technical-skills",
     "title": "CV",
     "section": "Technical skills",
-    "text": "Technical skills\n\nProgramming and data analysis: Python, statistical analysis, numerical modelling, Git, GitHub, GitLab\nEarth observation: active and passive satellite products, multi-instrument analysis, retrieval development\nMethods: machine learning, probabilistic retrievals, causal analysis, radiative transfer calculations\nAdditional tools: SQL, IDL, Mathematica, LaTeX"
+    "text": "Technical skills\n\nEarth observation: active and passive satellite products, multi-instrument analysis, retrieval development\nMethods: programming with Python, statistical analysis methods, probabilistic retrievals, causal analysis, machine learning, radiative transfer calculations\nAdditional tools: SQL, IDL, Mathematica, LaTeX, Git"
   },
   {
     "objectID": "cv.html#languages",
     "href": "cv.html#languages",
     "title": "CV",
     "section": "Languages",
-    "text": "Languages\n\nGerman: native\nEnglish: fluent\nItalian: basic communication\nFrench: basic\nNepali: basic\n\nFor a complete list of peer-reviewed articles and other research outputs, see the Publications page."
+    "text": "Languages\n\nGerman: native\nEnglish: fluent\nItalian: intermediate\nFrench: basic\nNepali: basic\n\nFor a complete list of peer-reviewed articles and other research outputs, see the Publications page."
   },
   {
     "objectID": "quarto-workflows/jupyter.html",

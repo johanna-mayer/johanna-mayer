@@ -207,14 +207,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
+    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to track cloud systems in time and to understand how changes in cloud properties can lead to pattern changes.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
   },
   {
     "objectID": "research.html#mesoscale-organization-of-marine-stratocumulus",
     "href": "research.html#mesoscale-organization-of-marine-stratocumulus",
     "title": "Research",
     "section": "",
-    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to connect horizontal cloud patterns with their vertical structure and to track how cloud systems evolve over time.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
+    "text": "Marine stratocumulus clouds cover extensive areas of the subtropical oceans and strongly influence Earth’s radiation balance. My current work investigates their mesoscale organization, including transitions between closed- and open-cell cloud structures. I combine EarthCARE observations with geostationary satellite imagery to track cloud systems in time and to understand how changes in cloud properties can lead to pattern changes.\nThis work includes the use of convolutional neural networks for cloud-pattern classification and the analysis of physical mechanisms associated with structural transitions, particularly the role of precipitation."
   },
   {
     "objectID": "research.html#earthcare-and-multi-instrument-satellite-observations",
@@ -228,21 +228,21 @@
     "href": "research.html#cloud-thermodynamic-phase",
     "title": "Research",
     "section": "Cloud thermodynamic phase",
-    "text": "Cloud thermodynamic phase\nDuring my doctoral research at the German Aerospace Center (DLR), I developed methods to retrieve cloud thermodynamic phase from satellite observations. This included a Bayesian cloud-top phase retrieval for the SEVIRI instrument aboard Meteosat Second Generation, trained and evaluated using combined lidar and radar observations from polar-orbiting satellites.\nMy work also used radiative transfer calculations to examine how satellite brightness temperatures and their differences respond to cloud phase and related cloud properties. The aim was both to improve retrieval methods and to understand their physical sensitivities and limitations."
+    "text": "Cloud thermodynamic phase\n\n\nDuring my doctoral research at the German Aerospace Center (DLR), I developed methods to retrieve cloud thermodynamic phase from satellite observations. This included a Bayesian cloud-top phase retrieval for the SEVIRI instrument aboard Meteosat Second Generation, trained and evaluated using combined lidar and radar observations from polar-orbiting satellites.\nMy work also used radiative transfer calculations to examine how satellite brightness temperatures and their differences respond to cloud phase and related cloud properties. The aim was both to improve retrieval methods and to understand their physical sensitivities and limitations."
   },
   {
     "objectID": "research.html#airborne-research-and-interdisciplinary-work",
     "href": "research.html#airborne-research-and-interdisciplinary-work",
     "title": "Research",
     "section": "Airborne research and interdisciplinary work",
-    "text": "Airborne research and interdisciplinary work\nI contributed to the operation of in-situ instruments, weather briefings, and flight planning during the CIRRUS-HL, HALO-(AC)³, and SENS4ICE research campaigns. These activities provided experience at the interface of satellite remote sensing, airborne observations, and campaign operations.\nEarlier in my career, I worked on active matter and game theory, combining analytical methods with numerical modelling. This background continues to inform my interest in complex systems, pattern formation, and quantitative approaches to environmental research."
+    "text": "Airborne research and interdisciplinary work\n\n\n\n\n\n\n\n\nI contributed to the operation of in-situ instruments, weather briefings, and flight planning during the CIRRUS-HL, HALO-(AC)³, and SENS4ICE research campaigns. These activities provided experience at the interface of satellite remote sensing, airborne observations, and campaign operations.\nEarlier in my career, I worked on active matter and game theory, combining analytical methods with numerical modelling. This background continues to inform my interest in complex systems, pattern formation, and quantitative approaches to environmental research."
   },
   {
     "objectID": "research.html#research-interests",
     "href": "research.html#research-interests",
     "title": "Research",
     "section": "Research interests",
-    "text": "Research interests\n\nSatellite remote sensing of clouds\nMarine stratocumulus organization and transitions\nAerosol–cloud-precipitation interactions\nCloud thermodynamic phase\nActive and passive multi-sensor observations\nMachine learning for Earth observation\nStatistical and causal analysis\nRadiative transfer\nScience communication and interdisciplinary collaboration"
+    "text": "Research interests\n\nSatellite remote sensing of clouds, especially synergies of multiple sensors\nMarine stratocumulus organization\nAerosol–cloud-precipitation interactions\nCloud feedbacks and Earth’s energy imbalance\nCloud thermodynamic phase\nMachine learning for Earth observation\nRadiative transfer\nScience communication and interdisciplinary collaboration"
   },
   {
     "objectID": "cv.html",

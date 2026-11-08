@@ -1,0 +1,12 @@
+.quarto-title-block .quarto-title-banner .title,
+.quarto-title-block .quarto-title-banner .subtitle {
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.quarto-title-block .quarto-title-banner {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+}

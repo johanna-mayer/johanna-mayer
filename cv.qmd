@@ -7,7 +7,7 @@ title: "CV"
 **Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy**  
 *Since November 2024*
 
-- Research using EarthCARE and geostationary satellite observations to investigate marine stratocumulus structure and evolution
+- Research using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution
 - Integration of active and passive satellite measurements
 - Application of machine learning and causal methods in cloud research
 - Contribution to scientific coordination, contract support, workshops, seminars, and outreach
@@ -53,7 +53,7 @@ Université Pierre et Marie Curie, Paris, 2015–2016
 
 ## Scientific leadership, service, and outreach
 
-- Organizer of the EarthCARE Science Seminar series
+- Organizer of the EarthCARE Science Seminar series [https://www.earthcarescience.net/seminars](https://www.earthcarescience.net/seminars)
 - Co-supervisor of doctoral research on satellite climatologies of cloud phase
 - Science committee member for EarthCARE Science and Validation Workshops
 - Co-convener of an EarthCARE session at the EGU General Assembly
@@ -70,16 +70,15 @@ Université Pierre et Marie Curie, Paris, 2015–2016
 
 ## Technical skills
 
-- **Programming and data analysis:** Python, statistical analysis, numerical modelling, Git, GitHub, GitLab
 - **Earth observation:** active and passive satellite products, multi-instrument analysis, retrieval development
-- **Methods:** machine learning, probabilistic retrievals, causal analysis, radiative transfer calculations
-- **Additional tools:** SQL, IDL, Mathematica, LaTeX
+- **Methods:** programming with Python, statistical analysis methods, probabilistic retrievals, causal analysis, machine learning, radiative transfer calculations
+- **Additional tools:** SQL, IDL, Mathematica, LaTeX, Git
 
 ## Languages
 
 - German: native
 - English: fluent
-- Italian: basic communication
+- Italian: intermediate
 - French: basic
 - Nepali: basic
 

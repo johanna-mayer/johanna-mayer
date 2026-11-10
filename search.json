@@ -1,215 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Johanna Mayer",
-    "section": "",
-    "text": "I am an atmospheric physicist specializing in satellite remote sensing of clouds. My research combines physical understanding, statistical methods, and machine learning to investigate cloud properties, processes, and their role in the climate system.\nI am currently an Internal Research Fellow at the European Space Agency (ESA/ESRIN), where I mainly work with observations from the EarthCARE satellite mission in combination with geostationary satellites. A central focus of my research is marine stratocumulus: how these clouds are organized, how their structure changes over time, and how precipitation and aerosol–cloud interactions influence their evolution.\n\n\n\n\n\n\n\n\nMy background spans atmospheric physics, theoretical and mathematical physics, and environmental studies. I enjoy working across disciplines and collaborating with researchers from different scientific communities, as well as contributing to outreach activities that make Earth observation and climate science accessible to wider audiences."
-  },
-  {
-    "objectID": "quarto-workflows/index.html",
-    "href": "quarto-workflows/index.html",
-    "title": "Quarto workflows",
-    "section": "",
-    "text": "How do you work in Quarto? You can use whichever tool you’re comfortable with (RStudio, Jupyter, GitHub, VS Code, etc). Developing your quarto site will have the same basic workflow, no matter which tool you use. It is very iterative, and each is explored more below.\n\nAuthoring: write text, code, images, etc in a file. Supported files include .md, .Rmd, .qmd, .ipynb…\nUpdate _quarto.yml as needed (for example, if you’ve created a new file you’d like included in your site)\nRender individual files and/or the whole website\nRepeat, repeat, repeat\nCommit and push your website to GitHub, your updates will publish automatically!\nRepeat all of the above to make the website as you’d like!\n\nNote: if editing from your internet browser we won’t render in Step 3. That step will not be separate, but combined with Step 5, which will only require a commit, not a push."
-  },
-  {
-    "objectID": "quarto-workflows/index.html#basic-workflow",
-    "href": "quarto-workflows/index.html#basic-workflow",
-    "title": "Quarto workflows",
-    "section": "",
-    "text": "How do you work in Quarto? You can use whichever tool you’re comfortable with (RStudio, Jupyter, GitHub, VS Code, etc). Developing your quarto site will have the same basic workflow, no matter which tool you use. It is very iterative, and each is explored more below.\n\nAuthoring: write text, code, images, etc in a file. Supported files include .md, .Rmd, .qmd, .ipynb…\nUpdate _quarto.yml as needed (for example, if you’ve created a new file you’d like included in your site)\nRender individual files and/or the whole website\nRepeat, repeat, repeat\nCommit and push your website to GitHub, your updates will publish automatically!\nRepeat all of the above to make the website as you’d like!\n\nNote: if editing from your internet browser we won’t render in Step 3. That step will not be separate, but combined with Step 5, which will only require a commit, not a push."
-  },
-  {
-    "objectID": "quarto-workflows/index.html#authoring",
-    "href": "quarto-workflows/index.html#authoring",
-    "title": "Quarto workflows",
-    "section": "Authoring",
-    "text": "Authoring\nAs an author, you have a lot of options of how your text will be formatted, arranged, and interlinked. You will be writing in Markdown, which is a lightweight text formatting language. The Quarto documentation about authoring introduces markdown-basics that will get you started. Also see Mine Çetinkaya-Rundel’s A Quarto tip a day.\nEach page of our site has a similar first few lines - this YAML, like we saw in our _quarto.yml and it is indicated by two sets of 3 dashes --- :\n---\ntitle: My title\n---\nYou’re able to add more features to individual pages by including it in the YAML, which for the most part here only includes a title. See Quarto excecution options for more information of what you can include in the YAML."
-  },
-  {
-    "objectID": "quarto-workflows/index.html#update-_quarto.yml",
-    "href": "quarto-workflows/index.html#update-_quarto.yml",
-    "title": "Quarto workflows",
-    "section": "Update _quarto.yml",
-    "text": "Update _quarto.yml\nLet’s have a closer look at the _quarto.yml file.\nThis type of file (.yml or .yaml) is written in YAML (“Yet Another Markup Language”). You’ll be able to shift the arrangement of webpages by reordering/adding/deleting them in the _quarto.yml file following the patterns you see in this example.\n\n\n\n_quarto.yml and website side-by-side\n\n\nNotice that there are multiple ways in the _quarto.yml for you to include a file in your website. For example, in the above image, the “First Observations” we see in the left sidebar of the published website (right image) is represented in _quarto.yml (left image) over two lines, with line 36 indicating the file reference and line 37 indicating the text to show up in the left sidebar. However, “From RStudio” is only represented in one line of _quarto.yml, on line 43. This represents two strategies for including a file in your website. By default, the title of a specified file will show up in the website’s sidebar, which is what is happening with the “From RStudio” example. If you would like more control over what is written in the sidebar vs the title of your files, then the approach we took with “First Observations” is what you’ll want to do: you’ll see that only “First Observations” shows up in the sidebar as we specified in _quarto.yml, but the page’s title says “First Observations & Setup” (which in our preference was too long for the sidebar).\n\n\n\n\n\n\nNote\n\n\n\nAs you modify _quarto.yml, the most important thing to know is that spacing matters. Pay attention to whether text is indented by one, two, four, or other spaces, and make sure you follow it; if your site is not looking as expected it is likely a silent error in your YAML. Some text editors like RStudio provide debugging support for YAML and are highly recommended to save you time and heartache."
-  },
-  {
-    "objectID": "quarto-workflows/index.html#install-quarto",
-    "href": "quarto-workflows/index.html#install-quarto",
-    "title": "Quarto workflows",
-    "section": "Install Quarto",
-    "text": "Install Quarto\nhttps://quarto.org/docs/get-started/ describes how to install Quarto, which will depend on your operating system. We’ll walk through installation for each tool in the next chapters."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html",
-    "href": "quarto-workflows/rstudio.html",
-    "title": "From RStudio",
-    "section": "",
-    "text": "The RStudio software (called an IDE, integrated development environment) is an excellent way to edit files and interface with GitHub. Plus, as it is made by the same folks who make Quarto, it has many integrated features for streamlining your workflow with Quarto, including how it previews your edits and provides debugging support for yaml! Quarto's RStudio tutorials has great instructions on getting started with RStudio, including computations and authoring.\nHere is what you’ll need to do to set up and use RStudio with Quarto."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#setup",
-    "href": "quarto-workflows/rstudio.html#setup",
-    "title": "From RStudio",
-    "section": "Setup",
-    "text": "Setup\n\nRStudio and GitHub\nFor a workflow with RStudio and GitHub on your local computer, you will need four things:\n\nR\nRStudio\nGit\nGitHub\n\nFollow the UCSB MEDS Installation Guide for detailed instructions on how to create accounts, download, install, and configure on Mac and Windows. This takes about 20 minutes. (For an even more detailed walk-through, see Allison Horst’s ESM 206 Google Doc).\n\n\nClone your repo\nYou’ll start by cloning your repository into RStudio.\nFile &gt; New Project &gt; Version Control &gt; Git &gt; paste your repository name.\nR for Excel Users: Clone your repository using RStudio has detailed instructions and screenshots of these steps.\n\n\nInstall Quarto\nNext, you’ll install Quarto: https://quarto.org/docs/get-started/. After downloading, follow the installation wizard on your computer. When it is complete, you won’t see an application or any new software, but it is now available to RStudio (as well as all other applications on your computer, including the command line).\n\n\nRStudio orientation\nNow let’s take a moment to get oriented. This is an RStudio project, which is indicated in the top-right. The bottom right pane shows all the files in your project; everything we’ve cloned from GitHub. We can open any RStudio project by opening its .Rproj file, or from RStudio File &gt; Open Project ….\n\n\n\nRStudio IDE highlighting the project name and files pane\n\n\n\n\nVisual Editor\nThe RStudio Visual Editor is quite new and has features that improve your writing experience. Working in the Visual Editor feels a bit like working in a Google Doc.\nHere’s an example showing the same file in the original Source Editor with content in markdown format and in the Visual Editor with content that looks more like it will appear in a live site. You can switch freely between these modes.\n\n\n\n\n\n\nRStudio IDE highlighting the Source Editor\n\n\n\n\n\n\n\nRStudio IDE highlighting the Visual Editor\n\n\n\n\n\nAlready have some content formatted in a Google Doc? You can copy-paste it into the Visual Editor and most formatting will be retained.\nThe editing bar provides familiar point and click access to text formatting options like bulleted or numbered lists.\n\n\n\nRStudio IDE highlighting the point and click editing bar\n\n\n\nKeyboard shortcuts\nThe Visual Editor also lets you use many keyboard shortcuts that might be familiar for adding boldface (command-b), italics (command-i), or headers. On a Mac, option-command-2 will make a level 2 header. Try it with option-command-1, or option-command-0 for normal text!\n\n\nInsert an image or figure\nTo insert an image (called a figure in Quarto), click the image icon. This brings up a window in which we can select the image, set its alignment, give it a caption and alt text, hyperlink it, or edit other metadata.\n\n\n\nInsert image or figure using the Visual Editor\n\n\nOnce an image is added, clicking on that image gives us editing options. We can resize it dynamically by clicking in the image and dragging a corner or side to resize. When an image is selected, its dimensions are displayed for editing. Clicking on the gray ellipsis to the right of the dimensions opens the pop-up window to access more metadata edits.\n\n\nInsert a table\nSimilar to adding an image, to insert a table, we click the Table dropdown."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#quarto-render",
-    "href": "quarto-workflows/rstudio.html#quarto-render",
-    "title": "From RStudio",
-    "section": "Quarto render",
-    "text": "Quarto render\nIn the Build tab in the top-right pane, click “Render Website”. This will build the .html files and preview your website. It’s equivalent to “knitting” in RMarkdown.\nNote that you can also click “Preview Website”. With “Render Website” in RStudio, Quarto is able to render and preview in one step.\nIf you’d ever like to stop the preview, in the bottom-left, click on the Jobs tab and then the red Stop button.\n\nMake a small change and render it\nClick on index.md. This will open this markdown file in a fourth pane; the editor pane. Make a small change, for example change to today’s date on Line 4. Then, save your file; there is a disc icon at the top of the file.\nThen, render this file: press “Render” which is to the right of the disc icon that saves the file. This will render only this single file, as opposed to rerendering the whole website like when we clicked “Render Website” in the top right pane. Checking Render on Save (between the disc icon and the Render button) is a great strategy for doing this in one step."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#create-a-new-.rmd-page",
-    "href": "quarto-workflows/rstudio.html#create-a-new-.rmd-page",
-    "title": "From RStudio",
-    "section": "Create a new .Rmd page",
-    "text": "Create a new .Rmd page\nNew &gt; RMarkdown document &gt; OK\nThe starter RMarkdown document has some R code inside: it displays a summary of the cars dataset that is pre-loaded into R (summary(cars)) and plots the pressure data that is also pre-loaded (plot(pressure)).\nSave this document as r-example.rmd."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#update-_quarto.yml",
-    "href": "quarto-workflows/rstudio.html#update-_quarto.yml",
-    "title": "From RStudio",
-    "section": "Update _quarto.yml",
-    "text": "Update _quarto.yml\nNow we’ll add r-example.rmd to our _quarto.yml file; this is where we register all files to include in our site. Let’s add it after the section called “Quarto Workflows”.\nOpen _quarto.yml by clicking on it from the file directory.\nScroll down to review the current contents in the sidebar: section under contents:. It’s there we see all the file arrangement that we see in the previewed site.\nAdd - r-example.rmd in its own line, making sure that your indentation aligns with the other pages.\nFrom the Build tab, clicking Preview Website will recreate your website!"
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#authoring-tips",
-    "href": "quarto-workflows/rstudio.html#authoring-tips",
-    "title": "From RStudio",
-    "section": "Authoring tips",
-    "text": "Authoring tips\nChecking “Render on Save” is really helpful when iterating quickly on a document.\nIf the document is very code-heavy, consider using freeze that will not run the code each time.\nQuarto.org has details about authoring, including specific instructions about authoring in RStudio."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#commit-and-push",
-    "href": "quarto-workflows/rstudio.html#commit-and-push",
-    "title": "From RStudio",
-    "section": "Commit and push!",
-    "text": "Commit and push!\nCommitting and pushing will make the changes you see locally live on your website (using the GitHub Action we set up earlier)."
-  },
-  {
-    "objectID": "quarto-workflows/rstudio.html#troubleshooting",
-    "href": "quarto-workflows/rstudio.html#troubleshooting",
-    "title": "From RStudio",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\nIf you have trouble rendering your website after for example changing the extenstion of a file from .md to .qmd, refreshing your RStudio often helps. Do this by clicking the project name at the upper right of the RStudio window (in this case, quarto-website-tutorial), and underneath the “close project” section, click the same name of your project: quarto-website-tutorial. This will relaunch your whole project afresh."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Peer-reviewed Publications",
-    "section": "",
-    "text": "last update (Sep. 2026). Updated listing under Google Scholar or Orcid.\n\nB. Piskala Gvoždíková, J. Mayer, S.M. Brose, E. Malina, D. Gasbarra, A. Doležalová, K. Samardzhiev (2026).\nLightning2EarthCARE: Collocated geostationary lightning and EarthCARE observations of electrically active storms.\nEarth System Science Data [preprint]. doi:10.5194/essd-2026-470\nJ. Mayer, D. Gasbarra, R.J. Hogan, E. Malina, S. Mason, B. Piskala Gvozdikova (2026).\nEarthCARE reveals details on the role of rain in closed-to-open cell transitions,\nEGUsphere [preprint], doi:10.5194/egusphere-2026-3000\nJ. Schaefer, S. Grawe, H.-C. Clemen, S. Mertes, J. Schneider, B. Wetzel, D. Sauer, J. Wolf, L. Tomsche, J. Mayer, R. Schrödner, S. Henning, T. Jurkat-Witschas, C. Voigt, H. Ziereis, T. Harlaß, M. Pöhlker, F. Stratmann (2026).\nUpward transport and segregation of ice-nucleating particles in deep convective clouds.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-12505-2026\nH.K. Alladi, J. Quimbayo-Duarte, L. Bugliaro, J. Mayer, S. Singh, J. Schmidli (2026).\nEvaluating turbulent and microphysical schemes in ICON for deep convection over the Alps: a case study of vertical transport and model–observation comparison,\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-8617-2026\nM. Moser, C. Voigt, O. Eppers, J. Lucke, E. De La Torre Castro, J. Mayer, R. Dupuy, G. Mioche, O. Jourdan, H.-C. Clemen, J. Schneider, P. Joppe, S. Mertes, B. Wetzel, S. Borrmann, M. Klingebiel, M. Mech, C. Lüpkes, S. Crewell, A. Ehrlich, A. Herber, M. Wendisch (2026).\nThe Arctic Low-Level Mixed-Phase Haze Regime and its Microphysical Differences to Mixed-Phase Clouds.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-1867-2026\nV. Santos Gabriel, L. Bugliaro, M. Montag, S. Ries, Z. Wang, K. Widmaier, M. Arico, S. Unterstrasser, J. Mayer, D. Menekay, A. Marsing, E. de la Torre Castro, L. Megill, M. Scheibe, C. Voigt (2026).\nA manually labeled contrail dataset from MSG/SEVIRI,\nEarth System Science Data, doi:10.5194/essd-18-2397-2026\nB. Stevens, T. Andrews, F.A.-M. Bender, S. Bony, P. Ceppi, F. Glassmeier, H.M. Glöckner, J. Gregory, N.G. Loeb, H. Masunaga, B. Meyssignac, G. Myhre, M. Rugenstein, C.E. Singer, B. Soden, A. Aubel, G. Bellon, M. Bolot, N. Clerbaux, R. Fiévet, E. Fons, M.A. Giorgetta, O. Hadas, C. Hohenegger, L. Kluft, K. Krueger, J. Lécuyer, T. Mauritsen, B. Mayer, J. Mayer, M. Mayer, B. McKim, T. Michibata, R. Orlijan-Rhyne, C. Park, W. Roh, B.H. Samset, M. Satoh, G.A. Schmidt, M. Schulz, C. Smith, G. Tselioudis, Y. Tsushima, L. Volkmer, L.J. Wilcox (2026)\nEarth’s net incoming energy-flux imbalance (and its implications for understanding climate change)\nMPI für Meteorologie, doi:10.17617/2.3711842\nM. Aricò, D. Piontek, L. Bugliaro, J. Mayer, R. Müller, F. Kalinka, M. Butter (2025).\nA novel machine learning retrieval for the detection of ice crystal icing conditions based on geostationary satellite imagery.\nAtmospheric Measurement Techniques. doi:10.5194/amt-18-7129-2025\nT. Jurkat-Witschas, C. Voigt, S. Groß, S. Kaufmann, D. Sauer, E. De la Torre Castro, M. Krämer, A. Schäfler, A. Afchine, R. Attinger, I. Bartolome Garcia, C.G. Beer, L. Bugliaro, H.-C. Clemen, G. Dekoutsidis, A. Ehrlich, S. Grawe, V. Hahn, J. Hendricks, E. Järvinen, T. Klimach, K. Krüger, O. Krüger, J. Lucke, A.E. Luebke, A. Marsing, B. Mayer, J. Mayer, S. Mertes, M. Rubin-Zuzic, M. Moser, H. Müller, V. Nenakhov, M. Pöhlker, U. Pöschl, V. Pörtge, M. Rautenhaus, M. Righi, J. Röttenbacher, J. Schaefer, M. Schnaiter, J. Schneider, U. Schumann, N. Spelten, F. Stratmann, L. Tomsche, S. Wagner, Z. Wang, A. Weber, M. Wendisch, H. Wernli, B. Wetzel, M. Wirth, A. Zahn, H. Ziereis, M. Zöger (2025).\nCIRRUS-HL: Picturing high- and mid-latitude summer cirrus and contrail cirrus above Europe with airborne measurements aboard the research aircraft HALO.\nBAMS. doi:10.1175/BAMS-D-23-0270.1\nA. Ehrlich, S. Crewell, A. Herber, M. Klingebiel, C. Lüpkes, M. Mech, S. Becker, S. Borrmann, H. Bozem, M. Buschmann, H.-C. Clemen, E. De La Torre Castro, H. Dorff, R. Dupuy, O. Eppers, F. Ewald, G. George, A. Giez, S. Grawe, C. Gourbeyre, J. Hartmann, E. Jäkel, P. Joppe, O. Jourdan, Z. Jurányi, B. Kirbus, J. Lucke, A.E. Luebke, M. Maahn, N. Maherndl, C. Mallaun, J. Mayer, S. Mertes, G. Mioche, M. Moser, H. Müller, V. Pörtge, N. Risse, G. Roberts, S. Rosenburg, J. Röttenbacher, M. Schäfer, J. Schaefer, A. Schäfler, I. Schirmacher, J. Schneider, S. Schnitt, F. Stratmann, C. Tatzelt, C. Voigt, A. Walbröl, A. Weber, B. Wetzel, M. Wirth, M. Wendisch (2025).\nA comprehensive in situ and remote sensing data set collected during the HALO–(AC)3 aircraft campaign.\nEarth System Science Data. doi:10.5194/essd-17-1295-2025\nJ. Mayer, B. Mayer, L. Bugliaro, R. Meerkötter, C. Voigt (2024).\nHow well can brightness temperature differences of spaceborne imagers help to detect cloud phase? A sensitivity analysis regarding cloud phase and related cloud properties.\nAtmospheric Measurement Techniques. doi:10.5194/amt-17-5161-2024\nJ. Mayer, L. Bugliaro, B. Mayer, D. Piontek, C. Voigt (2024).\nBayesian cloud-top phase determination for Meteosat Second Generation.\nAtmospheric Measurement Techniques. doi:10.5194/amt-17-4015-2024\nM. Wendisch, S. Crewell, A. Ehrlich, A. Herber, B. Kirbus, C. Lüpkes, M. Mech, S.J. Abel, E.F. Akansu, F. Ament, C. Aubry, S. Becker, S. Borrmann, H. Bozem, M. Brückner, H.-C. Clemen, S. Dahlke, G. Dekoutsidis, J. Delanoë, E. De La Torre Castro, H. Dorff, R. Dupuy, O. Eppers, F. Ewald, G. George, I.V. Gorodetskaya, S. Grawe, S. Groß, J. Hartmann, S. Henning, L. Hirsch, E. Jäkel, P. Joppe, O. Jourdan, Z. Jurányi, M. Karalis, M. Kellermann, M. Klingebiel, M. Lonardi, J. Lucke, A.E. Luebke, M. Maahn, N. Maherndl, M. Maturilli, B. Mayer, J. Mayer, S. Mertes, J. Michaelis, M. Michalkov, G. Mioche, M. Moser, H. Müller, R. Neggers, D. Ori, D. Paul, F.M. Paulus, C. Pilz, F. Pithan, M. Pöhlker, V. Pörtge, M. Ringel, N. Risse, G.C. Roberts, S. Rosenburg, J. Röttenbacher, J.E. Rückert, M. Schäfer, J. Schaefer, V. Schemann, I. Schirmacher, J. Schmidt, S. Schmidt, J. Schneider, S. Schnitt, A. Schwarz, H. Siebert, H. Sodemann, T. Sperzel, G. Spreen, B. Stevens, F. Stratmann, G. Svensson, C. Tatzelt, T. Tuch, T. Vihma, C. Voigt, L. Volkmer, A. Walbröl, A. Weber, B. Wehner, B. Wetzel, M. Wirth, T. Zinner (2024).\nOverview: Quasi-Lagrangian observations of Arctic air mass transformations – Introduction and initial results of the HALO–(AC)\\(^{3}\\) aircraft campaign.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-24-8865-2024\nA. Walbröl, J. Michaelis, S. Becker, H. Dorff, I. Gorodetskaya, B. Kirbus, M. Lauer, N. Maherndl, M. Maturilli, J. Mayer, H. Müller, R.A.J. Neggers, F.M. Paulus, J. Röttenbacher, J.E. Rückert, I. Schirmacher, N. Slättberg, A. Ehrlich, M. Wendisch, S. Crewell (2024).\nEnvironmental conditions in the North Atlantic sector of the Arctic during the HALO–(AC)³ campaign.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-24-8007-2024\nJ. Mayer, F. Ewald, L. Bugliaro, C. Voigt (2023).\nCloud Top Thermodynamic Phase from Synergistic Lidar-Radar Cloud Products from Polar Orbiting Satellites: Implications for Observations from Geostationary Satellites.\nRemote Sensing. doi:10.3390/rs15071742\nT. Jurkat, J. Lucke, C. Schwarz, C. Deiler, F. Sachs, S. Kirschler, D. Menekay, C. Voigt, B. Bernstein, O. Jaron, F. Kalinka, A. Zollo, L. Lilie, J. Mayer, C. Page, B. Vié, A. Bourdon, R. Pereira Lima, L. Vieira (2023).\nOverview of Cloud Microphysical Measurements during the SENS4ICE Airborne Test Campaigns: Contrasting Icing Frequencies from Climatological Data to First Results from Airborne Observations.\nConference Paper at SAE International. doi:10.4271/2023-01-1491\nJ. Mayer, M. Obermüller, J. Denk, E. Frey (2021).\nSnowdrift game induces pattern formation in systems of self-propelled particles.\nPhysical Reviews E. doi:10.1103/PhysRevE.104.044408"
-  },
-  {
-    "objectID": "explore.html",
-    "href": "explore.html",
-    "title": "Explore and setup",
-    "section": "",
-    "text": "With this tutorial, we have a working example website that we will explore together. We’ll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with Quarto documentation.\nWe’ll start our exploration online looking at the website architecture and GitHub repository. Then we’ll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We’ll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter)."
-  },
-  {
-    "objectID": "explore.html#exploring-online",
-    "href": "explore.html#exploring-online",
-    "title": "Explore and setup",
-    "section": "Exploring online",
-    "text": "Exploring online\n\nThe website itself\nThis website has 5 things you can see on the left sidebar:\n\nWelcome\nExploring and setup\nQuarto workflows\nLearning more\nTransition from Rmd\n\nMost of these are pages, but you’ll see that “Quarto Workflows” has an arrow &gt;; it is a folder with additional pages inside.\n\n\nThe website’s repo\nLet’s go to this website’s GitHub repository (also called a “repo”), https://github.com/openscapes/quarto-website-tutorial. You can also click there from any page in this tutorial website by clicking the GitHub octocat icon underneath the Openscapes logo in the left navbar (click it holding command on Mac, or control on a PC to open it in a different tab in your browser).\nHave a look at the filenames. We can recognize the names of the webpages we’ve seen above, and they have red arrows marking them in the image below. You’ll see the “quarto-workflows” folder and the rest in this site are .qmd files, which are plain text Quarto files that can combine Markdown text with code. index.qmd is the home page. If you click inside “quarto-workflows” you’ll see a mix of filetypes!\n\n\n\nquarto-website-tutorial GitHub repository with files for webpages marked with red arrows\n\n\nThe _site folder has html files with names that should be familiar: they match the .qmd files we were just exploring. This folder is where Quarto stores files to build the website."
-  },
-  {
-    "objectID": "explore.html#quarto.yml-intro",
-    "href": "explore.html#quarto.yml-intro",
-    "title": "Explore and setup",
-    "section": "_quarto.yml intro",
-    "text": "_quarto.yml intro\nThere is also a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you update the organization of your website: which page comes before another. If we compare side-by-side, you’ll see that the pages that appear on our website are listed there.\n\n\n\n_quarto.yml and website side-by-side\n\n\nWe’ll learn more about how to interact with _quarto.yml in Quarto Workflows."
-  },
-  {
-    "objectID": "explore.html#fork-to-your-account",
-    "href": "explore.html#fork-to-your-account",
-    "title": "Explore and setup",
-    "section": "Fork to your account",
-    "text": "Fork to your account\nLet’s start with an existing Quarto site and copy it into your space to edit. You’ll need a free GitHub account that you create at github.com (follow this advice about choosing your username).\nFirst, choose an existing website to copy. The simplest option is to start with this site: quarto-website-tutorial.\nOther options of potential interest:\n\n2021-Cloud-Hackathon\n2022-SWOT-Ocean-Cloud-Workshop\nOpenscapes Approach-Guide\n\nNext, follow these steps to fork and setup your repo with GitHub Actions from Gavin Fay, using the repo you chose. These instructions will take ~5 minutes.\nNow you’ve got a copy of your repo of choice in your own GitHub account, and you’re set to start making your own edits. Your GitHub repo is set up with a GitHub Action that will use Quarto to rebuild and republish your site anytime you make a commit: committing will trigger the GitHub Action to rebuild and republish the book.\nNote that the GitHub Action for this book does not include R or Python so those will need to be added if your website relies on code. See https://github.com/r-lib/actions for more details and examples.\n\nDownload instead of fork\nForking might not always be the way to go - you can’t fork into the same GitHub user account or organization so if for example you want to make a copy of 2021-Cloud-Hackathon repo within the same NASA-Openscapes GitHub Organization, you’ll need to download instead of fork. In this case, follow these steps to download and copy into a new repository, and set up the GitHub Action and the gh-pages branch for publishing, separately.\n\nDownload github repo files\nNavigate to https://github.com/openscapes/quarto-website-tutorial (or any other quarto site repo of choice). Click the green “Code” button and select “Download ZIP”. When it downloads on your computer, unzip the files.\n\n\nCreate a new GitHub repo\nNavigate to your GitHub account or organization, and create a new repository, naming it what you’d like. You’ll need a free GitHub account that you create at github.com (follow this advice about choosing your username). When you’re logged in, github.com will show a green button that says “New” which you’ll also see as you navigate to your username’s repository page.\n\n\nAdd original site files\nIf you’re comfortable cloning the new repository and copying files into it locally before committing and pushing back to GitHub, that is preferable to the GitHub file uploader, which does have limitations with complex repos. The uploader does not allow upload of folders, so some manual work would be required.\nTo use the GitHub file uploader, click the button next to the green “Code” button that says “Add file”. Add file &gt; Upload files. Then, on your computer, select all the files in unzipped folder (command-A or control-A), and drag them to the GitHub uploader page. Scroll down to write a commit message, which effectively saves your files when you’re working in the browser."
-  },
-  {
-    "objectID": "explore.html#setup-github-action",
-    "href": "explore.html#setup-github-action",
-    "title": "Explore and setup",
-    "section": "Set up GitHub publishing",
-    "text": "Set up GitHub publishing\nIf you’ve used the ‘Fork to your account approach’ above, your website is all set!\nIf you’ve set up your repo by using the ‘Download github repo files’ approach above, you’ll need to set up GitHub publishing separately. We’ll do this in a few steps: we’ll set up a GitHub Action within your repo, and create a gh-pages branch.\nFirst, the GitHub Action. Go back to your main view of your GitHub repository by clicking on the name of your repository at the top-left (the url in your browser window should say https://github.com/username/repo-name).\nNext to the green code button, click Add file &gt; Create new file. Name it exactly this: .github/workflows/quarto-publish.yml . In detail: start by typing the . with github and when you type the / it will give you a new text box to type workflows (plural!), then another /, and finally, quarto-publish.yml.\nNow you’ll have an empty new file. Paste the following in this empty file - you can click on the top-right of this box to copy all the code inside this code box:\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      # add software dependencies here\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions\nCommit this to save your new quarto-publish.yml file. This is your GitHub Action.\nNext, we’ll create a new gh-pages branch. Go back to the main view of your GitHub repository. On the far left from the green “Code” button, click the button that says “main”. In the pull-down menu, type gh-pages - all lowercase, with a hyphen. Click the bold text that says “Create branch: gh-pages from main”.\nNow click on the Settings tab in the top right of your repository. On the left sidebar, click Pages. At the top of Pages under “Source”, select gh-pages root, and press Save (may already be saved by default).\nTo view your published website, at your main repository page, on the right side, click the gear-icon, select ‘Use your GitHub Pages website’."
-  },
-  {
-    "objectID": "explore.html#confirm",
-    "href": "explore.html#confirm",
-    "title": "Explore and setup",
-    "section": "Confirm your website is published",
-    "text": "Confirm your website is published\nTo confirm that your website is published, go back to your main repository page. You’ll now see an orange dot showing that the GitHub Action is beginning to publish the page.\n\n\n\nOur repo with orange dot indicating in-progress GitHub Action build\n\n\nIf you do not see this orange dot, you can re-run the GitHub Action (on the main repo page, click Actions &gt; select the workflow you want to re-run &gt; click the ‘Re-run all jobs’ button.\nWhen your orange do becomes a green check, you can go inspect your published site at “https://username.github.io/your-repo). For example: https://openscapes.github.io/quarto-website-tutorial.\n\n\n\nOur repo with green check indicating successful GitHub Action build\n\n\nIt can take some time for the site to deploy, so don’t worry if you don’t see it right away."
-  },
-  {
-    "objectID": "explore.html#renaming-your-repo",
-    "href": "explore.html#renaming-your-repo",
-    "title": "Explore and setup",
-    "section": "Renaming your repo",
-    "text": "Renaming your repo\nIf you’d like to rename your repo, go to Settings and the option to rename is on the top of the main settings page."
-  },
-  {
-    "objectID": "explore.html#onward",
-    "href": "explore.html#onward",
-    "title": "Explore and setup",
-    "section": "Onward!",
-    "text": "Onward!\nNow you are ready to start editing and publishing! The next chapter describes how starting off from the browser, using Markdown."
-  },
-  {
-    "objectID": "comic.html",
-    "href": "comic.html",
-    "title": "Science meets Comics",
-    "section": "",
-    "text": "Cloud science is fascinating, and I believe that a broad audience should be able to enjoy it and understand why it matters. Together with illustrator Laura Mayer, I am working on a series of scientific comics. They explain EarthCARE, what it can measure, and why these measurements are important in an easy and engaging way.\nThe comics are still a work in progress and will be published on the ESA website by the end of this year. Stay tuned!"
-  },
-  {
-    "objectID": "learning-more.html",
-    "href": "learning-more.html",
-    "title": "Learning more",
-    "section": "",
-    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own."
-  },
-  {
-    "objectID": "learning-more.html#learn-more",
-    "href": "learning-more.html#learn-more",
-    "title": "Learning more",
-    "section": "",
-    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own."
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html",
-    "href": "transition-from-rmarkdown.html",
-    "title": "Transition from RMarkdown",
-    "section": "",
-    "text": "You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.\nHere are some notes as we migrate RMarkdown sites and books.\nTODO: translating R code chunks"
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#bookdown-to-quarto",
-    "href": "transition-from-rmarkdown.html#bookdown-to-quarto",
-    "title": "Transition from RMarkdown",
-    "section": "Bookdown to Quarto",
-    "text": "Bookdown to Quarto\nConverting a Bookdown book to Quarto is slightly more involved than converting a website. A book has chapters whose order must be defined, and likely has citations and cross-refs. Still, conversion is not that hard.\nWe got some practice converting from Bookdown to Quarto by helping Gavin Fay convert his lab’s fantastic onboarding documentation, the Faylab Lab Manual. Here’s the GitHub view before and after.\nOur best first reference material for this was Nick Tierney’s Notes on Changing from Rmarkdown/Bookdown to Quarto. Nick shares some scripts in that post to automate some changes. In our case, the book was small enough that we made all changes manually. Quarto documentation was indispensable.\n\nExperimenting in a low-risk environment\nWe forked a copy of the Faylab Lab manual to the Openscapes organization, and worked in a branch so we could make changes relatively risk-free. We could always fork a new copy of the original if we “broke” something. (Caution: the default when making a pull request from a fork is to push changes to the original upstream repo, not your fork and it does this without warning if you have write-access to that repo.) With local previews it’s easy to test / play with settings to see what they do. We tended to make a change, Preview, then compare the look and functionality of the book to the original. It was helpful to comment out some elements of the configuration file _output.yml after their counterparts had been added to the Quarto configuration file _quarto.yml, or to confirm they were no longer needed, before making the drastic move of deleting them.\n\n\nThe conversion\nHere are the main steps to convert the Faylab Lab manual from Bookdown to Quarto.\nCreate new empty file called _quarto.yml and add book metadata there. The screenshots below\nSet project type as book.\nMove metadata out of index.qmd and into _quarto.yml. Title, author, and publication date were in index.qmd with date set using date: \"Last updated:r Sys.Date()\". Now these are in _quarto.yml with date set using date: last-modified. Note that having R code would require you to adjust code chunk options in the Quarto style (#|). This tripped us up a bit; see GitHub Actions.\nMove chapters listing out of _bookdown.yml and into _quarto.yml.\nAdd page footer to _quarto.yml.\nHere’s what ours looked like when we finished the steps above (_quarto.yml).\n\n\n\n\n\n\n_quarto.yml contents\n\n\n\n\n\n\n\nFaylab Lab Manual\n\n\n\n\n\nChange insertion of images from html style to Quarto style. (Note Quarto calls them “figures”, not “images”.) The following snippet will insert the GitHub octocat logo in a page:\n![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){fig-align=\"left\" width=\"35px\"}\nChange all filename extensions .Rmd -&gt; .qmd (you could Preview after this change and see that the book looks the same). Note that Quarto works with .Rmd files just as well as it does .qmd, so this change is not urgent. In fact, if you have a lot of R code in your .Rmds (unlike the Faylab Lab Manual), there will be additional tinkering needed to make the code chunks happy.\n\n\nCitations\nThe Faylab Lab Manual cited two papers, presenting us with an opportunity to see how easy it is to add references to a Quarto book. Briefly, in the Visual Editor, Insert &gt; Citation &gt; DOI. Pasting the DOI or its full URL, we can insert the citation. This automatically creates a references.bib file and adds the full citations at the bottom of the chapter page (watch demo). In July 2022, we had to manually add a ## References heading, but this may not be necessary in future Quarto updates.\n\n\n\n\n\n\nInsert citation via its DOI using RStudio Visual Editor\n\n\n\n\n\n\n\n\n\n\nPublishing notes\nIf the book’s output is strictly html, there’s no need to specify output-dir in _quarto.yml. The output directory default is _book/, which is what we’d like. If we wanted other types of output like like PDF or EPUB, etc. those single file outputs are also written to the output-dir (Quarto docs).\nIf you currently have a docs/ folder, delete it.\nUpdate .gitignore to ignore _book/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_book/\nOnce all is settled, delete _output.yml.\nOnce the Openscapes fork was fully reviewed, we made a pull request from that to the main branch of the book’s repo. Once that was merged, we set up GitHub Actions to render the book. (TODO: instructions for GitHub Actions)\n\n\nGitHub Actions\nThis book was mostly prose and screenshots without any R code. This made the conversion from RMarkdown to Quarto likely more straightforward than if you also needed to adjust code chunk options in the quarto style (#|). Our initial GitHub Action to render the converted Faylab Lab Manual failed because we had a piece of R code - even though the code was commented out! This was resolved when we deleted the line."
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#distill-to-quarto",
-    "href": "transition-from-rmarkdown.html#distill-to-quarto",
-    "title": "Transition from RMarkdown",
-    "section": "Distill to quarto",
-    "text": "Distill to quarto\nWe transitioned our events site from distill to quarto in May 2022 (github view before and after). We followed excellent notes and examples from Nick Tierney and Danielle Navarro.\nAfter we had changed all the files, the Build tab in the RStudio IDE still showed “Build website” rather then “Render Website” and “Preview Website”, and would error when we pushed them (because that button was expecting a distill site, not a quarto site). To fix this, we updated the .Rproj file. Clicking on the .Rproj file in the RStudio IDE will open a dialog box where you can click things you want (you can also open these in a text editor or from the GitHub website to see the actual text). To fix this situation with the Build tab: Project Options &gt; Build Tools &gt; Project Build Tools &gt; None.\nLooking at files /posts/_metadata.yml and _quarto.yml helps see where things are defined. For example, to make event post citations appear, we added citation: true to /posts/_metadata.yml and in _quarto.yml under the website key we set site-url: https://openscapes.github.io/events. We deleted footer.html used with distill because footer is now defined in quarto.yml.\n\nPublishing notes\n\nBackground: Our distill site had been set up to output to a docs folder, and had GitHub Settings &gt; Pages set to look there rather gh-pages branch. (Julie note: this was a new-to-me capability when we set up the events distill site in Spring 2021 so I had forgotten that was an option). We’ve inititally kept this same set-up for now with our events page in _quarto.yml: output-dir: docs. However, this is sub-optimal; better to not have to commit and push these files but to instead have a GitHub Action generate them upon a commit. So the following is what we did -\n\nDon’t specify output-dir in _quarto.yml. The output directory default is _site/, which is what we’d like.\nIf you currently have a docs/ folder (like we did as we were experimenting), delete it.\nUpdate .gitignore to ignore _site/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_site/\nPush these changes, merge into main.\nOn GitHub.com, in your repo, set up GitHub publishing\nFollow instructions from the explore and setup chapter."
-  },
-  {
-    "objectID": "transition-from-rmarkdown.html#troubleshooting",
-    "href": "transition-from-rmarkdown.html#troubleshooting",
-    "title": "Transition from RMarkdown",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nGitHub Action fails, says you need RMarkdown but you don’t have R code!\nAnd you changed all .Rmds to .qmds!\nYou likely have a few setup code chunks from RMarkdown, that look like this:\n{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\nYou can find them by opening each of your files and having a look, or use GitHub’s search for the keyword knitr"
-  },
-  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
@@ -252,60 +42,11 @@
     "text": "Research interests\n\nSatellite remote sensing of clouds, especially synergies of multiple sensors\nMarine stratocumulus organization\nAerosol–cloud-precipitation interactions\nCloud feedbacks and Earth’s energy imbalance\nCloud thermodynamic phase\nMachine learning for Earth observation\nRadiative transfer\nScience communication and interdisciplinary collaboration"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Johanna Mayer",
     "section": "",
-    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
-  },
-  {
-    "objectID": "cv.html#current-position",
-    "href": "cv.html#current-position",
-    "title": "CV",
-    "section": "",
-    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
-  },
-  {
-    "objectID": "cv.html#previous-research-experience",
-    "href": "cv.html#previous-research-experience",
-    "title": "CV",
-    "section": "Previous research experience",
-    "text": "Previous research experience\nDoctoral Candidate, German Aerospace Center (DLR), Institute of Atmospheric Physics\nJanuary 2021 – October 2024\n\nDeveloped a probabilistic retrieval of cloud thermodynamic phase for Meteosat Second Generation observations\nUsed synergistic lidar–radar satellite products and radiative transfer calculations\nSupported airborne research campaigns through instrument operation, weather briefings, and flight planning\n\nResearch Assistant, Ludwig Maximilian University of Munich, Department of Statistical and Biological Physics\nAugust 2018 – April 2020\n\nAnalysed mathematical models coupling active matter and game theory\nDeveloped and evaluated a numerical model of the system\n\nJunior Data Analyst, Planetly, Berlin\nMay 2020 – December 2020\n\nContributed to data collection and the development of a database for corporate carbon-footprint calculations"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "CV",
-    "section": "Education",
-    "text": "Education\nDoctoral programme in Atmospheric Physics\nGerman Aerospace Center and Ludwig Maximilian University of Munich, 2021–2024\nResearch focus: passive satellite remote sensing of clouds and cloud thermodynamic phase\nM.Sc. in Theoretical and Mathematical Physics\nLudwig Maximilian University of Munich and Technical University of Munich, 2016–2019\nFocus: complex systems, statistical physics, and information theory\nAdditional Master’s Programme in Environmental Studies\nRachel Carson Center for Environment and Society and Ludwig Maximilian University of Munich, 2017–2020\nB.Sc. in Physics\nLudwig Maximilian University of Munich, 2012–2016\nErasmus studies\nUniversité Pierre et Marie Curie, Paris, 2015–2016"
-  },
-  {
-    "objectID": "cv.html#scientific-leadership-service-and-outreach",
-    "href": "cv.html#scientific-leadership-service-and-outreach",
-    "title": "CV",
-    "section": "Scientific leadership, service, and outreach",
-    "text": "Scientific leadership, service, and outreach\n\nOrganizer of the EarthCARE Science Seminar series https://www.earthcarescience.net/seminars\nCo-supervisor of doctoral research on satellite climatologies of cloud phase\nScience committee member for EarthCARE Science and Validation Workshops\nCo-convener of an EarthCARE session at the EGU General Assembly\nReviewer for Atmospheric Measurement Techniques\nContributor to educational and public-engagement activities on Earth observation, climate research, and cloud physics\nExperience designing interdisciplinary science communication activities that connect atmospheric science with visual art, music, and movement"
-  },
-  {
-    "objectID": "cv.html#selected-presentations-and-professional-activities",
-    "href": "cv.html#selected-presentations-and-professional-activities",
-    "title": "CV",
-    "section": "Selected presentations and professional activities",
-    "text": "Selected presentations and professional activities\n\nKeynote and invited presentations on Earth observation, cloud science, artificial intelligence, and climate communication\nContributions to EarthCARE Science and Validation Workshops and EGU General Assemblies\nParticipation in specialist workshops on cloud processes, satellite observations, and Earth’s energy balance\nInvited expert in an interdisciplinary research sprint focused on innovative applications of Earth observation"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "CV",
-    "section": "Technical skills",
-    "text": "Technical skills\n\nEarth observation: active and passive satellite products, multi-instrument analysis, retrieval development\nMethods: programming with Python, statistical analysis methods, probabilistic retrievals, causal analysis, machine learning, radiative transfer calculations\nAdditional tools: SQL, IDL, Mathematica, LaTeX, Git"
-  },
-  {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
-    "title": "CV",
-    "section": "Languages",
-    "text": "Languages\n\nGerman: native\nEnglish: fluent\nItalian: intermediate\nFrench: basic\nNepali: basic\n\nFor a complete list of peer-reviewed articles and other research outputs, see the Publications page."
+    "text": "I am an atmospheric physicist specializing in satellite remote sensing of clouds. My research combines physical understanding, statistical methods, and machine learning to investigate cloud properties, processes, and their role in the climate system.\nI am currently an Internal Research Fellow at the European Space Agency (ESA/ESRIN), where I mainly work with observations from the EarthCARE satellite mission in combination with geostationary satellites. A central focus of my research is marine stratocumulus: how these clouds are organized, how their structure changes over time, and how precipitation and aerosol–cloud interactions influence their evolution.\n\n\n\n\n\n\n\n\nMy background spans atmospheric physics, theoretical and mathematical physics, and environmental studies. I enjoy working across disciplines and collaborating with researchers from different scientific communities, as well as contributing to outreach activities that make Earth observation and climate science accessible to wider audiences."
   },
   {
     "objectID": "quarto-workflows/jupyter.html",
@@ -371,6 +112,237 @@
     "text": "Troubleshooting\n\nMy changes don’t show up in preview\nMake sure you’ve saved your file! There might be a slight delay depending on your JupyterHub/Lab setup.\n\n\nQuarto render hangs / does not complete\nCheck the specific notebook, are there any `—` throughout to denote line breaks rather than yaml? They might be causing the issue; consider deleting those.\nAlso check how long the first raw cell is. Are there level-1 headers (#)? Try removing them."
   },
   {
+    "objectID": "quarto-workflows/rstudio.html",
+    "href": "quarto-workflows/rstudio.html",
+    "title": "From RStudio",
+    "section": "",
+    "text": "The RStudio software (called an IDE, integrated development environment) is an excellent way to edit files and interface with GitHub. Plus, as it is made by the same folks who make Quarto, it has many integrated features for streamlining your workflow with Quarto, including how it previews your edits and provides debugging support for yaml! Quarto's RStudio tutorials has great instructions on getting started with RStudio, including computations and authoring.\nHere is what you’ll need to do to set up and use RStudio with Quarto."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#setup",
+    "href": "quarto-workflows/rstudio.html#setup",
+    "title": "From RStudio",
+    "section": "Setup",
+    "text": "Setup\n\nRStudio and GitHub\nFor a workflow with RStudio and GitHub on your local computer, you will need four things:\n\nR\nRStudio\nGit\nGitHub\n\nFollow the UCSB MEDS Installation Guide for detailed instructions on how to create accounts, download, install, and configure on Mac and Windows. This takes about 20 minutes. (For an even more detailed walk-through, see Allison Horst’s ESM 206 Google Doc).\n\n\nClone your repo\nYou’ll start by cloning your repository into RStudio.\nFile &gt; New Project &gt; Version Control &gt; Git &gt; paste your repository name.\nR for Excel Users: Clone your repository using RStudio has detailed instructions and screenshots of these steps.\n\n\nInstall Quarto\nNext, you’ll install Quarto: https://quarto.org/docs/get-started/. After downloading, follow the installation wizard on your computer. When it is complete, you won’t see an application or any new software, but it is now available to RStudio (as well as all other applications on your computer, including the command line).\n\n\nRStudio orientation\nNow let’s take a moment to get oriented. This is an RStudio project, which is indicated in the top-right. The bottom right pane shows all the files in your project; everything we’ve cloned from GitHub. We can open any RStudio project by opening its .Rproj file, or from RStudio File &gt; Open Project ….\n\n\n\nRStudio IDE highlighting the project name and files pane\n\n\n\n\nVisual Editor\nThe RStudio Visual Editor is quite new and has features that improve your writing experience. Working in the Visual Editor feels a bit like working in a Google Doc.\nHere’s an example showing the same file in the original Source Editor with content in markdown format and in the Visual Editor with content that looks more like it will appear in a live site. You can switch freely between these modes.\n\n\n\n\n\n\nRStudio IDE highlighting the Source Editor\n\n\n\n\n\n\n\nRStudio IDE highlighting the Visual Editor\n\n\n\n\n\nAlready have some content formatted in a Google Doc? You can copy-paste it into the Visual Editor and most formatting will be retained.\nThe editing bar provides familiar point and click access to text formatting options like bulleted or numbered lists.\n\n\n\nRStudio IDE highlighting the point and click editing bar\n\n\n\nKeyboard shortcuts\nThe Visual Editor also lets you use many keyboard shortcuts that might be familiar for adding boldface (command-b), italics (command-i), or headers. On a Mac, option-command-2 will make a level 2 header. Try it with option-command-1, or option-command-0 for normal text!\n\n\nInsert an image or figure\nTo insert an image (called a figure in Quarto), click the image icon. This brings up a window in which we can select the image, set its alignment, give it a caption and alt text, hyperlink it, or edit other metadata.\n\n\n\nInsert image or figure using the Visual Editor\n\n\nOnce an image is added, clicking on that image gives us editing options. We can resize it dynamically by clicking in the image and dragging a corner or side to resize. When an image is selected, its dimensions are displayed for editing. Clicking on the gray ellipsis to the right of the dimensions opens the pop-up window to access more metadata edits.\n\n\nInsert a table\nSimilar to adding an image, to insert a table, we click the Table dropdown."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#quarto-render",
+    "href": "quarto-workflows/rstudio.html#quarto-render",
+    "title": "From RStudio",
+    "section": "Quarto render",
+    "text": "Quarto render\nIn the Build tab in the top-right pane, click “Render Website”. This will build the .html files and preview your website. It’s equivalent to “knitting” in RMarkdown.\nNote that you can also click “Preview Website”. With “Render Website” in RStudio, Quarto is able to render and preview in one step.\nIf you’d ever like to stop the preview, in the bottom-left, click on the Jobs tab and then the red Stop button.\n\nMake a small change and render it\nClick on index.md. This will open this markdown file in a fourth pane; the editor pane. Make a small change, for example change to today’s date on Line 4. Then, save your file; there is a disc icon at the top of the file.\nThen, render this file: press “Render” which is to the right of the disc icon that saves the file. This will render only this single file, as opposed to rerendering the whole website like when we clicked “Render Website” in the top right pane. Checking Render on Save (between the disc icon and the Render button) is a great strategy for doing this in one step."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#create-a-new-.rmd-page",
+    "href": "quarto-workflows/rstudio.html#create-a-new-.rmd-page",
+    "title": "From RStudio",
+    "section": "Create a new .Rmd page",
+    "text": "Create a new .Rmd page\nNew &gt; RMarkdown document &gt; OK\nThe starter RMarkdown document has some R code inside: it displays a summary of the cars dataset that is pre-loaded into R (summary(cars)) and plots the pressure data that is also pre-loaded (plot(pressure)).\nSave this document as r-example.rmd."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#update-_quarto.yml",
+    "href": "quarto-workflows/rstudio.html#update-_quarto.yml",
+    "title": "From RStudio",
+    "section": "Update _quarto.yml",
+    "text": "Update _quarto.yml\nNow we’ll add r-example.rmd to our _quarto.yml file; this is where we register all files to include in our site. Let’s add it after the section called “Quarto Workflows”.\nOpen _quarto.yml by clicking on it from the file directory.\nScroll down to review the current contents in the sidebar: section under contents:. It’s there we see all the file arrangement that we see in the previewed site.\nAdd - r-example.rmd in its own line, making sure that your indentation aligns with the other pages.\nFrom the Build tab, clicking Preview Website will recreate your website!"
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#authoring-tips",
+    "href": "quarto-workflows/rstudio.html#authoring-tips",
+    "title": "From RStudio",
+    "section": "Authoring tips",
+    "text": "Authoring tips\nChecking “Render on Save” is really helpful when iterating quickly on a document.\nIf the document is very code-heavy, consider using freeze that will not run the code each time.\nQuarto.org has details about authoring, including specific instructions about authoring in RStudio."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#commit-and-push",
+    "href": "quarto-workflows/rstudio.html#commit-and-push",
+    "title": "From RStudio",
+    "section": "Commit and push!",
+    "text": "Commit and push!\nCommitting and pushing will make the changes you see locally live on your website (using the GitHub Action we set up earlier)."
+  },
+  {
+    "objectID": "quarto-workflows/rstudio.html#troubleshooting",
+    "href": "quarto-workflows/rstudio.html#troubleshooting",
+    "title": "From RStudio",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\nIf you have trouble rendering your website after for example changing the extenstion of a file from .md to .qmd, refreshing your RStudio often helps. Do this by clicking the project name at the upper right of the RStudio window (in this case, quarto-website-tutorial), and underneath the “close project” section, click the same name of your project: quarto-website-tutorial. This will relaunch your whole project afresh."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Peer-reviewed Publications",
+    "section": "",
+    "text": "last update (Sep. 2026). Updated listing under Google Scholar or Orcid.\n\nB. Piskala Gvoždíková, J. Mayer, S.M. Brose, E. Malina, D. Gasbarra, A. Doležalová, K. Samardzhiev (2026).\nLightning2EarthCARE: Collocated geostationary lightning and EarthCARE observations of electrically active storms.\nEarth System Science Data [preprint]. doi:10.5194/essd-2026-470\nJ. Mayer, D. Gasbarra, R.J. Hogan, E. Malina, S. Mason, B. Piskala Gvozdikova (2026).\nEarthCARE reveals details on the role of rain in closed-to-open cell transitions,\nEGUsphere [preprint], doi:10.5194/egusphere-2026-3000\nJ. Schaefer, S. Grawe, H.-C. Clemen, S. Mertes, J. Schneider, B. Wetzel, D. Sauer, J. Wolf, L. Tomsche, J. Mayer, R. Schrödner, S. Henning, T. Jurkat-Witschas, C. Voigt, H. Ziereis, T. Harlaß, M. Pöhlker, F. Stratmann (2026).\nUpward transport and segregation of ice-nucleating particles in deep convective clouds.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-12505-2026\nH.K. Alladi, J. Quimbayo-Duarte, L. Bugliaro, J. Mayer, S. Singh, J. Schmidli (2026).\nEvaluating turbulent and microphysical schemes in ICON for deep convection over the Alps: a case study of vertical transport and model–observation comparison,\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-8617-2026\nM. Moser, C. Voigt, O. Eppers, J. Lucke, E. De La Torre Castro, J. Mayer, R. Dupuy, G. Mioche, O. Jourdan, H.-C. Clemen, J. Schneider, P. Joppe, S. Mertes, B. Wetzel, S. Borrmann, M. Klingebiel, M. Mech, C. Lüpkes, S. Crewell, A. Ehrlich, A. Herber, M. Wendisch (2026).\nThe Arctic Low-Level Mixed-Phase Haze Regime and its Microphysical Differences to Mixed-Phase Clouds.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-26-1867-2026\nV. Santos Gabriel, L. Bugliaro, M. Montag, S. Ries, Z. Wang, K. Widmaier, M. Arico, S. Unterstrasser, J. Mayer, D. Menekay, A. Marsing, E. de la Torre Castro, L. Megill, M. Scheibe, C. Voigt (2026).\nA manually labeled contrail dataset from MSG/SEVIRI,\nEarth System Science Data, doi:10.5194/essd-18-2397-2026\nB. Stevens, T. Andrews, F.A.-M. Bender, S. Bony, P. Ceppi, F. Glassmeier, H.M. Glöckner, J. Gregory, N.G. Loeb, H. Masunaga, B. Meyssignac, G. Myhre, M. Rugenstein, C.E. Singer, B. Soden, A. Aubel, G. Bellon, M. Bolot, N. Clerbaux, R. Fiévet, E. Fons, M.A. Giorgetta, O. Hadas, C. Hohenegger, L. Kluft, K. Krueger, J. Lécuyer, T. Mauritsen, B. Mayer, J. Mayer, M. Mayer, B. McKim, T. Michibata, R. Orlijan-Rhyne, C. Park, W. Roh, B.H. Samset, M. Satoh, G.A. Schmidt, M. Schulz, C. Smith, G. Tselioudis, Y. Tsushima, L. Volkmer, L.J. Wilcox (2026)\nEarth’s net incoming energy-flux imbalance (and its implications for understanding climate change)\nMPI für Meteorologie, doi:10.17617/2.3711842\nM. Aricò, D. Piontek, L. Bugliaro, J. Mayer, R. Müller, F. Kalinka, M. Butter (2025).\nA novel machine learning retrieval for the detection of ice crystal icing conditions based on geostationary satellite imagery.\nAtmospheric Measurement Techniques. doi:10.5194/amt-18-7129-2025\nT. Jurkat-Witschas, C. Voigt, S. Groß, S. Kaufmann, D. Sauer, E. De la Torre Castro, M. Krämer, A. Schäfler, A. Afchine, R. Attinger, I. Bartolome Garcia, C.G. Beer, L. Bugliaro, H.-C. Clemen, G. Dekoutsidis, A. Ehrlich, S. Grawe, V. Hahn, J. Hendricks, E. Järvinen, T. Klimach, K. Krüger, O. Krüger, J. Lucke, A.E. Luebke, A. Marsing, B. Mayer, J. Mayer, S. Mertes, M. Rubin-Zuzic, M. Moser, H. Müller, V. Nenakhov, M. Pöhlker, U. Pöschl, V. Pörtge, M. Rautenhaus, M. Righi, J. Röttenbacher, J. Schaefer, M. Schnaiter, J. Schneider, U. Schumann, N. Spelten, F. Stratmann, L. Tomsche, S. Wagner, Z. Wang, A. Weber, M. Wendisch, H. Wernli, B. Wetzel, M. Wirth, A. Zahn, H. Ziereis, M. Zöger (2025).\nCIRRUS-HL: Picturing high- and mid-latitude summer cirrus and contrail cirrus above Europe with airborne measurements aboard the research aircraft HALO.\nBAMS. doi:10.1175/BAMS-D-23-0270.1\nA. Ehrlich, S. Crewell, A. Herber, M. Klingebiel, C. Lüpkes, M. Mech, S. Becker, S. Borrmann, H. Bozem, M. Buschmann, H.-C. Clemen, E. De La Torre Castro, H. Dorff, R. Dupuy, O. Eppers, F. Ewald, G. George, A. Giez, S. Grawe, C. Gourbeyre, J. Hartmann, E. Jäkel, P. Joppe, O. Jourdan, Z. Jurányi, B. Kirbus, J. Lucke, A.E. Luebke, M. Maahn, N. Maherndl, C. Mallaun, J. Mayer, S. Mertes, G. Mioche, M. Moser, H. Müller, V. Pörtge, N. Risse, G. Roberts, S. Rosenburg, J. Röttenbacher, M. Schäfer, J. Schaefer, A. Schäfler, I. Schirmacher, J. Schneider, S. Schnitt, F. Stratmann, C. Tatzelt, C. Voigt, A. Walbröl, A. Weber, B. Wetzel, M. Wirth, M. Wendisch (2025).\nA comprehensive in situ and remote sensing data set collected during the HALO–(AC)3 aircraft campaign.\nEarth System Science Data. doi:10.5194/essd-17-1295-2025\nJ. Mayer, B. Mayer, L. Bugliaro, R. Meerkötter, C. Voigt (2024).\nHow well can brightness temperature differences of spaceborne imagers help to detect cloud phase? A sensitivity analysis regarding cloud phase and related cloud properties.\nAtmospheric Measurement Techniques. doi:10.5194/amt-17-5161-2024\nJ. Mayer, L. Bugliaro, B. Mayer, D. Piontek, C. Voigt (2024).\nBayesian cloud-top phase determination for Meteosat Second Generation.\nAtmospheric Measurement Techniques. doi:10.5194/amt-17-4015-2024\nM. Wendisch, S. Crewell, A. Ehrlich, A. Herber, B. Kirbus, C. Lüpkes, M. Mech, S.J. Abel, E.F. Akansu, F. Ament, C. Aubry, S. Becker, S. Borrmann, H. Bozem, M. Brückner, H.-C. Clemen, S. Dahlke, G. Dekoutsidis, J. Delanoë, E. De La Torre Castro, H. Dorff, R. Dupuy, O. Eppers, F. Ewald, G. George, I.V. Gorodetskaya, S. Grawe, S. Groß, J. Hartmann, S. Henning, L. Hirsch, E. Jäkel, P. Joppe, O. Jourdan, Z. Jurányi, M. Karalis, M. Kellermann, M. Klingebiel, M. Lonardi, J. Lucke, A.E. Luebke, M. Maahn, N. Maherndl, M. Maturilli, B. Mayer, J. Mayer, S. Mertes, J. Michaelis, M. Michalkov, G. Mioche, M. Moser, H. Müller, R. Neggers, D. Ori, D. Paul, F.M. Paulus, C. Pilz, F. Pithan, M. Pöhlker, V. Pörtge, M. Ringel, N. Risse, G.C. Roberts, S. Rosenburg, J. Röttenbacher, J.E. Rückert, M. Schäfer, J. Schaefer, V. Schemann, I. Schirmacher, J. Schmidt, S. Schmidt, J. Schneider, S. Schnitt, A. Schwarz, H. Siebert, H. Sodemann, T. Sperzel, G. Spreen, B. Stevens, F. Stratmann, G. Svensson, C. Tatzelt, T. Tuch, T. Vihma, C. Voigt, L. Volkmer, A. Walbröl, A. Weber, B. Wehner, B. Wetzel, M. Wirth, T. Zinner (2024).\nOverview: Quasi-Lagrangian observations of Arctic air mass transformations – Introduction and initial results of the HALO–(AC)\\(^{3}\\) aircraft campaign.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-24-8865-2024\nA. Walbröl, J. Michaelis, S. Becker, H. Dorff, I. Gorodetskaya, B. Kirbus, M. Lauer, N. Maherndl, M. Maturilli, J. Mayer, H. Müller, R.A.J. Neggers, F.M. Paulus, J. Röttenbacher, J.E. Rückert, I. Schirmacher, N. Slättberg, A. Ehrlich, M. Wendisch, S. Crewell (2024).\nEnvironmental conditions in the North Atlantic sector of the Arctic during the HALO–(AC)³ campaign.\nAtmospheric Chemistry and Physics. doi:10.5194/acp-24-8007-2024\nJ. Mayer, F. Ewald, L. Bugliaro, C. Voigt (2023).\nCloud Top Thermodynamic Phase from Synergistic Lidar-Radar Cloud Products from Polar Orbiting Satellites: Implications for Observations from Geostationary Satellites.\nRemote Sensing. doi:10.3390/rs15071742\nT. Jurkat, J. Lucke, C. Schwarz, C. Deiler, F. Sachs, S. Kirschler, D. Menekay, C. Voigt, B. Bernstein, O. Jaron, F. Kalinka, A. Zollo, L. Lilie, J. Mayer, C. Page, B. Vié, A. Bourdon, R. Pereira Lima, L. Vieira (2023).\nOverview of Cloud Microphysical Measurements during the SENS4ICE Airborne Test Campaigns: Contrasting Icing Frequencies from Climatological Data to First Results from Airborne Observations.\nConference Paper at SAE International. doi:10.4271/2023-01-1491\nJ. Mayer, M. Obermüller, J. Denk, E. Frey (2021).\nSnowdrift game induces pattern formation in systems of self-propelled particles.\nPhysical Reviews E. doi:10.1103/PhysRevE.104.044408"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
+  },
+  {
+    "objectID": "cv.html#current-position",
+    "href": "cv.html#current-position",
+    "title": "CV",
+    "section": "",
+    "text": "Internal Research Fellow, European Space Agency (ESA/ESRIN), Italy\nSince November 2024\n\nResearch using EarthCARE and geostationary satellite observations to investigate marine stratocumulus organization and evolution\nIntegration of active and passive satellite measurements\nApplication of machine learning and causal methods in cloud research\nContribution to scientific coordination, contract support, workshops, seminars, and outreach"
+  },
+  {
+    "objectID": "cv.html#previous-research-experience",
+    "href": "cv.html#previous-research-experience",
+    "title": "CV",
+    "section": "Previous research experience",
+    "text": "Previous research experience\nDoctoral Candidate, German Aerospace Center (DLR), Institute of Atmospheric Physics\nJanuary 2021 – October 2024\n\nDeveloped a probabilistic retrieval of cloud thermodynamic phase for Meteosat Second Generation observations\nUsed synergistic lidar–radar satellite products and radiative transfer calculations\nSupported airborne research campaigns through instrument operation, weather briefings, and flight planning\n\nResearch Assistant, Ludwig Maximilian University of Munich, Department of Statistical and Biological Physics\nAugust 2018 – April 2020\n\nAnalysed mathematical models coupling active matter and game theory\nDeveloped and evaluated a numerical model of the system\n\nJunior Data Analyst, Planetly, Berlin\nMay 2020 – December 2020\n\nContributed to data collection and the development of a database for corporate carbon-footprint calculations"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\nDoctoral programme in Atmospheric Physics\nGerman Aerospace Center and Ludwig Maximilian University of Munich, 2021–2024\nResearch focus: passive satellite remote sensing of clouds and cloud thermodynamic phase\nM.Sc. in Theoretical and Mathematical Physics\nLudwig Maximilian University of Munich and Technical University of Munich, 2016–2019\nFocus: complex systems, statistical physics, and information theory\nAdditional Master’s Programme in Environmental Studies\nRachel Carson Center for Environment and Society and Ludwig Maximilian University of Munich, 2017–2020\nB.Sc. in Physics\nLudwig Maximilian University of Munich, 2012–2016\nErasmus studies\nUniversité Pierre et Marie Curie, Paris, 2015–2016"
+  },
+  {
+    "objectID": "cv.html#scientific-leadership-service-and-outreach",
+    "href": "cv.html#scientific-leadership-service-and-outreach",
+    "title": "CV",
+    "section": "Scientific leadership, service, and outreach",
+    "text": "Scientific leadership, service, and outreach\n\nOrganizer of the EarthCARE Science Seminar series https://www.earthcarescience.net/seminars\nCo-supervisor of doctoral research on satellite climatologies of cloud phase\nScience committee member for EarthCARE Science and Validation Workshops\nCo-convener of an EarthCARE session at the EGU General Assembly\nReviewer for Atmospheric Measurement Techniques\nContributor to educational and public-engagement activities on Earth observation, climate research, and cloud physics\nExperience designing interdisciplinary science communication activities that connect atmospheric science with visual art, music, and movement"
+  },
+  {
+    "objectID": "cv.html#selected-presentations-and-professional-activities",
+    "href": "cv.html#selected-presentations-and-professional-activities",
+    "title": "CV",
+    "section": "Selected presentations and professional activities",
+    "text": "Selected presentations and professional activities\n\nKeynote and invited presentations on Earth observation, cloud science, artificial intelligence, and climate communication\nContributions to EarthCARE Science and Validation Workshops and EGU General Assemblies\nParticipation in specialist workshops on cloud processes, satellite observations, and Earth’s energy balance\nInvited expert in an interdisciplinary research sprint focused on innovative applications of Earth observation"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "CV",
+    "section": "Technical skills",
+    "text": "Technical skills\n\nEarth observation: active and passive satellite products, multi-instrument analysis, retrieval development\nMethods: programming with Python, statistical analysis methods, probabilistic retrievals, causal analysis, machine learning, radiative transfer calculations\nAdditional tools: SQL, IDL, Mathematica, LaTeX, Git"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": "Languages",
+    "text": "Languages\n\nGerman: native\nEnglish: fluent\nItalian: intermediate\nFrench: basic\nNepali: basic\n\nFor a complete list of peer-reviewed articles and other research outputs, see the Publications page."
+  },
+  {
+    "objectID": "comic.html",
+    "href": "comic.html",
+    "title": "Science meets Comics",
+    "section": "",
+    "text": "Cloud science is fascinating, and I believe that a broad audience should be able to enjoy it and understand why it matters. Together with illustrator Laura Mayer, I am working on a series of scientific comics. They explain EarthCARE, what it can measure, and why these measurements are important in an easy and engaging way.\nThe comics are still a work in progress and will be published on the ESA website by the end of this year. Stay tuned!"
+  },
+  {
+    "objectID": "learning-more.html",
+    "href": "learning-more.html",
+    "title": "Learning more",
+    "section": "",
+    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own."
+  },
+  {
+    "objectID": "learning-more.html#learn-more",
+    "href": "learning-more.html#learn-more",
+    "title": "Learning more",
+    "section": "",
+    "text": "An excellent overview: Reproducible authoring with Quarto - Mine Çetinkaya-Rundel, Feb 2022 - slides, youtube\nA Quarto tip a day in June 2022, from Mine Çetinkaya-Rundel.\n\n\n\nOpenscapes Champions Lessons Series\nOpenscapes Approach Guide\n\nNASA Earthdata Cloud Cookbook\n\nSee many more examples at the quarto gallery!\n\n\n\nAre you making onboarding documentation? Check out The Fay Lab Manual (now in Quarto!) for inspiration on structure - you could also start there and make it your own."
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Explore and setup",
+    "section": "",
+    "text": "With this tutorial, we have a working example website that we will explore together. We’ll learn a few rules and look for patterns to get an understanding of what things to do to help you start customizing and making it your own. And you can continue to use this website as a reference after the tutorial, along with Quarto documentation.\nWe’ll start our exploration online looking at the website architecture and GitHub repository. Then we’ll setup a copy for ourselves so that we can modify from a working example, which is a great way to learn something new. We’ll set it up so that any modifications (commits) will automatically be republished via GitHub Actions. Subsequent chapters will describe how to modify your repo using different tools (browser, RStudio, Jupyter)."
+  },
+  {
+    "objectID": "explore.html#exploring-online",
+    "href": "explore.html#exploring-online",
+    "title": "Explore and setup",
+    "section": "Exploring online",
+    "text": "Exploring online\n\nThe website itself\nThis website has 5 things you can see on the left sidebar:\n\nWelcome\nExploring and setup\nQuarto workflows\nLearning more\nTransition from Rmd\n\nMost of these are pages, but you’ll see that “Quarto Workflows” has an arrow &gt;; it is a folder with additional pages inside.\n\n\nThe website’s repo\nLet’s go to this website’s GitHub repository (also called a “repo”), https://github.com/openscapes/quarto-website-tutorial. You can also click there from any page in this tutorial website by clicking the GitHub octocat icon underneath the Openscapes logo in the left navbar (click it holding command on Mac, or control on a PC to open it in a different tab in your browser).\nHave a look at the filenames. We can recognize the names of the webpages we’ve seen above, and they have red arrows marking them in the image below. You’ll see the “quarto-workflows” folder and the rest in this site are .qmd files, which are plain text Quarto files that can combine Markdown text with code. index.qmd is the home page. If you click inside “quarto-workflows” you’ll see a mix of filetypes!\n\n\n\nquarto-website-tutorial GitHub repository with files for webpages marked with red arrows\n\n\nThe _site folder has html files with names that should be familiar: they match the .qmd files we were just exploring. This folder is where Quarto stores files to build the website."
+  },
+  {
+    "objectID": "explore.html#quarto.yml-intro",
+    "href": "explore.html#quarto.yml-intro",
+    "title": "Explore and setup",
+    "section": "_quarto.yml intro",
+    "text": "_quarto.yml intro\nThere is also a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you update the organization of your website: which page comes before another. If we compare side-by-side, you’ll see that the pages that appear on our website are listed there.\n\n\n\n_quarto.yml and website side-by-side\n\n\nWe’ll learn more about how to interact with _quarto.yml in Quarto Workflows."
+  },
+  {
+    "objectID": "explore.html#fork-to-your-account",
+    "href": "explore.html#fork-to-your-account",
+    "title": "Explore and setup",
+    "section": "Fork to your account",
+    "text": "Fork to your account\nLet’s start with an existing Quarto site and copy it into your space to edit. You’ll need a free GitHub account that you create at github.com (follow this advice about choosing your username).\nFirst, choose an existing website to copy. The simplest option is to start with this site: quarto-website-tutorial.\nOther options of potential interest:\n\n2021-Cloud-Hackathon\n2022-SWOT-Ocean-Cloud-Workshop\nOpenscapes Approach-Guide\n\nNext, follow these steps to fork and setup your repo with GitHub Actions from Gavin Fay, using the repo you chose. These instructions will take ~5 minutes.\nNow you’ve got a copy of your repo of choice in your own GitHub account, and you’re set to start making your own edits. Your GitHub repo is set up with a GitHub Action that will use Quarto to rebuild and republish your site anytime you make a commit: committing will trigger the GitHub Action to rebuild and republish the book.\nNote that the GitHub Action for this book does not include R or Python so those will need to be added if your website relies on code. See https://github.com/r-lib/actions for more details and examples.\n\nDownload instead of fork\nForking might not always be the way to go - you can’t fork into the same GitHub user account or organization so if for example you want to make a copy of 2021-Cloud-Hackathon repo within the same NASA-Openscapes GitHub Organization, you’ll need to download instead of fork. In this case, follow these steps to download and copy into a new repository, and set up the GitHub Action and the gh-pages branch for publishing, separately.\n\nDownload github repo files\nNavigate to https://github.com/openscapes/quarto-website-tutorial (or any other quarto site repo of choice). Click the green “Code” button and select “Download ZIP”. When it downloads on your computer, unzip the files.\n\n\nCreate a new GitHub repo\nNavigate to your GitHub account or organization, and create a new repository, naming it what you’d like. You’ll need a free GitHub account that you create at github.com (follow this advice about choosing your username). When you’re logged in, github.com will show a green button that says “New” which you’ll also see as you navigate to your username’s repository page.\n\n\nAdd original site files\nIf you’re comfortable cloning the new repository and copying files into it locally before committing and pushing back to GitHub, that is preferable to the GitHub file uploader, which does have limitations with complex repos. The uploader does not allow upload of folders, so some manual work would be required.\nTo use the GitHub file uploader, click the button next to the green “Code” button that says “Add file”. Add file &gt; Upload files. Then, on your computer, select all the files in unzipped folder (command-A or control-A), and drag them to the GitHub uploader page. Scroll down to write a commit message, which effectively saves your files when you’re working in the browser."
+  },
+  {
+    "objectID": "explore.html#setup-github-action",
+    "href": "explore.html#setup-github-action",
+    "title": "Explore and setup",
+    "section": "Set up GitHub publishing",
+    "text": "Set up GitHub publishing\nIf you’ve used the ‘Fork to your account approach’ above, your website is all set!\nIf you’ve set up your repo by using the ‘Download github repo files’ approach above, you’ll need to set up GitHub publishing separately. We’ll do this in a few steps: we’ll set up a GitHub Action within your repo, and create a gh-pages branch.\nFirst, the GitHub Action. Go back to your main view of your GitHub repository by clicking on the name of your repository at the top-left (the url in your browser window should say https://github.com/username/repo-name).\nNext to the green code button, click Add file &gt; Create new file. Name it exactly this: .github/workflows/quarto-publish.yml . In detail: start by typing the . with github and when you type the / it will give you a new text box to type workflows (plural!), then another /, and finally, quarto-publish.yml.\nNow you’ll have an empty new file. Paste the following in this empty file - you can click on the top-right of this box to copy all the code inside this code box:\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      # add software dependencies here\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions\nCommit this to save your new quarto-publish.yml file. This is your GitHub Action.\nNext, we’ll create a new gh-pages branch. Go back to the main view of your GitHub repository. On the far left from the green “Code” button, click the button that says “main”. In the pull-down menu, type gh-pages - all lowercase, with a hyphen. Click the bold text that says “Create branch: gh-pages from main”.\nNow click on the Settings tab in the top right of your repository. On the left sidebar, click Pages. At the top of Pages under “Source”, select gh-pages root, and press Save (may already be saved by default).\nTo view your published website, at your main repository page, on the right side, click the gear-icon, select ‘Use your GitHub Pages website’."
+  },
+  {
+    "objectID": "explore.html#confirm",
+    "href": "explore.html#confirm",
+    "title": "Explore and setup",
+    "section": "Confirm your website is published",
+    "text": "Confirm your website is published\nTo confirm that your website is published, go back to your main repository page. You’ll now see an orange dot showing that the GitHub Action is beginning to publish the page.\n\n\n\nOur repo with orange dot indicating in-progress GitHub Action build\n\n\nIf you do not see this orange dot, you can re-run the GitHub Action (on the main repo page, click Actions &gt; select the workflow you want to re-run &gt; click the ‘Re-run all jobs’ button.\nWhen your orange do becomes a green check, you can go inspect your published site at “https://username.github.io/your-repo). For example: https://openscapes.github.io/quarto-website-tutorial.\n\n\n\nOur repo with green check indicating successful GitHub Action build\n\n\nIt can take some time for the site to deploy, so don’t worry if you don’t see it right away."
+  },
+  {
+    "objectID": "explore.html#renaming-your-repo",
+    "href": "explore.html#renaming-your-repo",
+    "title": "Explore and setup",
+    "section": "Renaming your repo",
+    "text": "Renaming your repo\nIf you’d like to rename your repo, go to Settings and the option to rename is on the top of the main settings page."
+  },
+  {
+    "objectID": "explore.html#onward",
+    "href": "explore.html#onward",
+    "title": "Explore and setup",
+    "section": "Onward!",
+    "text": "Onward!\nNow you are ready to start editing and publishing! The next chapter describes how starting off from the browser, using Markdown."
+  },
+  {
+    "objectID": "quarto-workflows/index.html",
+    "href": "quarto-workflows/index.html",
+    "title": "Quarto workflows",
+    "section": "",
+    "text": "How do you work in Quarto? You can use whichever tool you’re comfortable with (RStudio, Jupyter, GitHub, VS Code, etc). Developing your quarto site will have the same basic workflow, no matter which tool you use. It is very iterative, and each is explored more below.\n\nAuthoring: write text, code, images, etc in a file. Supported files include .md, .Rmd, .qmd, .ipynb…\nUpdate _quarto.yml as needed (for example, if you’ve created a new file you’d like included in your site)\nRender individual files and/or the whole website\nRepeat, repeat, repeat\nCommit and push your website to GitHub, your updates will publish automatically!\nRepeat all of the above to make the website as you’d like!\n\nNote: if editing from your internet browser we won’t render in Step 3. That step will not be separate, but combined with Step 5, which will only require a commit, not a push."
+  },
+  {
+    "objectID": "quarto-workflows/index.html#basic-workflow",
+    "href": "quarto-workflows/index.html#basic-workflow",
+    "title": "Quarto workflows",
+    "section": "",
+    "text": "How do you work in Quarto? You can use whichever tool you’re comfortable with (RStudio, Jupyter, GitHub, VS Code, etc). Developing your quarto site will have the same basic workflow, no matter which tool you use. It is very iterative, and each is explored more below.\n\nAuthoring: write text, code, images, etc in a file. Supported files include .md, .Rmd, .qmd, .ipynb…\nUpdate _quarto.yml as needed (for example, if you’ve created a new file you’d like included in your site)\nRender individual files and/or the whole website\nRepeat, repeat, repeat\nCommit and push your website to GitHub, your updates will publish automatically!\nRepeat all of the above to make the website as you’d like!\n\nNote: if editing from your internet browser we won’t render in Step 3. That step will not be separate, but combined with Step 5, which will only require a commit, not a push."
+  },
+  {
+    "objectID": "quarto-workflows/index.html#authoring",
+    "href": "quarto-workflows/index.html#authoring",
+    "title": "Quarto workflows",
+    "section": "Authoring",
+    "text": "Authoring\nAs an author, you have a lot of options of how your text will be formatted, arranged, and interlinked. You will be writing in Markdown, which is a lightweight text formatting language. The Quarto documentation about authoring introduces markdown-basics that will get you started. Also see Mine Çetinkaya-Rundel’s A Quarto tip a day.\nEach page of our site has a similar first few lines - this YAML, like we saw in our _quarto.yml and it is indicated by two sets of 3 dashes --- :\n---\ntitle: My title\n---\nYou’re able to add more features to individual pages by including it in the YAML, which for the most part here only includes a title. See Quarto excecution options for more information of what you can include in the YAML."
+  },
+  {
+    "objectID": "quarto-workflows/index.html#update-_quarto.yml",
+    "href": "quarto-workflows/index.html#update-_quarto.yml",
+    "title": "Quarto workflows",
+    "section": "Update _quarto.yml",
+    "text": "Update _quarto.yml\nLet’s have a closer look at the _quarto.yml file.\nThis type of file (.yml or .yaml) is written in YAML (“Yet Another Markup Language”). You’ll be able to shift the arrangement of webpages by reordering/adding/deleting them in the _quarto.yml file following the patterns you see in this example.\n\n\n\n_quarto.yml and website side-by-side\n\n\nNotice that there are multiple ways in the _quarto.yml for you to include a file in your website. For example, in the above image, the “First Observations” we see in the left sidebar of the published website (right image) is represented in _quarto.yml (left image) over two lines, with line 36 indicating the file reference and line 37 indicating the text to show up in the left sidebar. However, “From RStudio” is only represented in one line of _quarto.yml, on line 43. This represents two strategies for including a file in your website. By default, the title of a specified file will show up in the website’s sidebar, which is what is happening with the “From RStudio” example. If you would like more control over what is written in the sidebar vs the title of your files, then the approach we took with “First Observations” is what you’ll want to do: you’ll see that only “First Observations” shows up in the sidebar as we specified in _quarto.yml, but the page’s title says “First Observations & Setup” (which in our preference was too long for the sidebar).\n\n\n\n\n\n\nNote\n\n\n\nAs you modify _quarto.yml, the most important thing to know is that spacing matters. Pay attention to whether text is indented by one, two, four, or other spaces, and make sure you follow it; if your site is not looking as expected it is likely a silent error in your YAML. Some text editors like RStudio provide debugging support for YAML and are highly recommended to save you time and heartache."
+  },
+  {
+    "objectID": "quarto-workflows/index.html#install-quarto",
+    "href": "quarto-workflows/index.html#install-quarto",
+    "title": "Quarto workflows",
+    "section": "Install Quarto",
+    "text": "Install Quarto\nhttps://quarto.org/docs/get-started/ describes how to install Quarto, which will depend on your operating system. We’ll walk through installation for each tool in the next chapters."
+  },
+  {
     "objectID": "quarto-workflows/browser.html",
     "href": "quarto-workflows/browser.html",
     "title": "From the Browser",
@@ -397,5 +369,33 @@
     "title": "From the Browser",
     "section": "Limitations",
     "text": "Limitations\nWhile awesome that we can edit using GitHub directly from the browser, there are obvious limitations. One is that to see your edits show up in your book, you have to publish using the GitHub Action. This is slow. Another limitation is that we can only work on one file at a time and commit them each separately, which also is slow. Using additional software can make things much better, as we explore in subsequent chapters."
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html",
+    "href": "transition-from-rmarkdown.html",
+    "title": "Transition from RMarkdown",
+    "section": "",
+    "text": "You may already have workflows in RMarkdown and are interested in transitioning to Quarto. There’s no hurry to migrate to Quarto. Keep using Rmarkdown and when you’re ready the migration will be fine.\nHere are some notes as we migrate RMarkdown sites and books.\nTODO: translating R code chunks"
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#bookdown-to-quarto",
+    "href": "transition-from-rmarkdown.html#bookdown-to-quarto",
+    "title": "Transition from RMarkdown",
+    "section": "Bookdown to Quarto",
+    "text": "Bookdown to Quarto\nConverting a Bookdown book to Quarto is slightly more involved than converting a website. A book has chapters whose order must be defined, and likely has citations and cross-refs. Still, conversion is not that hard.\nWe got some practice converting from Bookdown to Quarto by helping Gavin Fay convert his lab’s fantastic onboarding documentation, the Faylab Lab Manual. Here’s the GitHub view before and after.\nOur best first reference material for this was Nick Tierney’s Notes on Changing from Rmarkdown/Bookdown to Quarto. Nick shares some scripts in that post to automate some changes. In our case, the book was small enough that we made all changes manually. Quarto documentation was indispensable.\n\nExperimenting in a low-risk environment\nWe forked a copy of the Faylab Lab manual to the Openscapes organization, and worked in a branch so we could make changes relatively risk-free. We could always fork a new copy of the original if we “broke” something. (Caution: the default when making a pull request from a fork is to push changes to the original upstream repo, not your fork and it does this without warning if you have write-access to that repo.) With local previews it’s easy to test / play with settings to see what they do. We tended to make a change, Preview, then compare the look and functionality of the book to the original. It was helpful to comment out some elements of the configuration file _output.yml after their counterparts had been added to the Quarto configuration file _quarto.yml, or to confirm they were no longer needed, before making the drastic move of deleting them.\n\n\nThe conversion\nHere are the main steps to convert the Faylab Lab manual from Bookdown to Quarto.\nCreate new empty file called _quarto.yml and add book metadata there. The screenshots below\nSet project type as book.\nMove metadata out of index.qmd and into _quarto.yml. Title, author, and publication date were in index.qmd with date set using date: \"Last updated:r Sys.Date()\". Now these are in _quarto.yml with date set using date: last-modified. Note that having R code would require you to adjust code chunk options in the Quarto style (#|). This tripped us up a bit; see GitHub Actions.\nMove chapters listing out of _bookdown.yml and into _quarto.yml.\nAdd page footer to _quarto.yml.\nHere’s what ours looked like when we finished the steps above (_quarto.yml).\n\n\n\n\n\n\n_quarto.yml contents\n\n\n\n\n\n\n\nFaylab Lab Manual\n\n\n\n\n\nChange insertion of images from html style to Quarto style. (Note Quarto calls them “figures”, not “images”.) The following snippet will insert the GitHub octocat logo in a page:\n![](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){fig-align=\"left\" width=\"35px\"}\nChange all filename extensions .Rmd -&gt; .qmd (you could Preview after this change and see that the book looks the same). Note that Quarto works with .Rmd files just as well as it does .qmd, so this change is not urgent. In fact, if you have a lot of R code in your .Rmds (unlike the Faylab Lab Manual), there will be additional tinkering needed to make the code chunks happy.\n\n\nCitations\nThe Faylab Lab Manual cited two papers, presenting us with an opportunity to see how easy it is to add references to a Quarto book. Briefly, in the Visual Editor, Insert &gt; Citation &gt; DOI. Pasting the DOI or its full URL, we can insert the citation. This automatically creates a references.bib file and adds the full citations at the bottom of the chapter page (watch demo). In July 2022, we had to manually add a ## References heading, but this may not be necessary in future Quarto updates.\n\n\n\n\n\n\nInsert citation via its DOI using RStudio Visual Editor\n\n\n\n\n\n\n\n\n\n\nPublishing notes\nIf the book’s output is strictly html, there’s no need to specify output-dir in _quarto.yml. The output directory default is _book/, which is what we’d like. If we wanted other types of output like like PDF or EPUB, etc. those single file outputs are also written to the output-dir (Quarto docs).\nIf you currently have a docs/ folder, delete it.\nUpdate .gitignore to ignore _book/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_book/\nOnce all is settled, delete _output.yml.\nOnce the Openscapes fork was fully reviewed, we made a pull request from that to the main branch of the book’s repo. Once that was merged, we set up GitHub Actions to render the book. (TODO: instructions for GitHub Actions)\n\n\nGitHub Actions\nThis book was mostly prose and screenshots without any R code. This made the conversion from RMarkdown to Quarto likely more straightforward than if you also needed to adjust code chunk options in the quarto style (#|). Our initial GitHub Action to render the converted Faylab Lab Manual failed because we had a piece of R code - even though the code was commented out! This was resolved when we deleted the line."
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#distill-to-quarto",
+    "href": "transition-from-rmarkdown.html#distill-to-quarto",
+    "title": "Transition from RMarkdown",
+    "section": "Distill to quarto",
+    "text": "Distill to quarto\nWe transitioned our events site from distill to quarto in May 2022 (github view before and after). We followed excellent notes and examples from Nick Tierney and Danielle Navarro.\nAfter we had changed all the files, the Build tab in the RStudio IDE still showed “Build website” rather then “Render Website” and “Preview Website”, and would error when we pushed them (because that button was expecting a distill site, not a quarto site). To fix this, we updated the .Rproj file. Clicking on the .Rproj file in the RStudio IDE will open a dialog box where you can click things you want (you can also open these in a text editor or from the GitHub website to see the actual text). To fix this situation with the Build tab: Project Options &gt; Build Tools &gt; Project Build Tools &gt; None.\nLooking at files /posts/_metadata.yml and _quarto.yml helps see where things are defined. For example, to make event post citations appear, we added citation: true to /posts/_metadata.yml and in _quarto.yml under the website key we set site-url: https://openscapes.github.io/events. We deleted footer.html used with distill because footer is now defined in quarto.yml.\n\nPublishing notes\n\nBackground: Our distill site had been set up to output to a docs folder, and had GitHub Settings &gt; Pages set to look there rather gh-pages branch. (Julie note: this was a new-to-me capability when we set up the events distill site in Spring 2021 so I had forgotten that was an option). We’ve inititally kept this same set-up for now with our events page in _quarto.yml: output-dir: docs. However, this is sub-optimal; better to not have to commit and push these files but to instead have a GitHub Action generate them upon a commit. So the following is what we did -\n\nDon’t specify output-dir in _quarto.yml. The output directory default is _site/, which is what we’d like.\nIf you currently have a docs/ folder (like we did as we were experimenting), delete it.\nUpdate .gitignore to ignore _site/. At the same time, we have it ignore caches and a .quarto file:\n/.quarto/\n*_cache/\n_site/\nPush these changes, merge into main.\nOn GitHub.com, in your repo, set up GitHub publishing\nFollow instructions from the explore and setup chapter."
+  },
+  {
+    "objectID": "transition-from-rmarkdown.html#troubleshooting",
+    "href": "transition-from-rmarkdown.html#troubleshooting",
+    "title": "Transition from RMarkdown",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nGitHub Action fails, says you need RMarkdown but you don’t have R code!\nAnd you changed all .Rmds to .qmds!\nYou likely have a few setup code chunks from RMarkdown, that look like this:\n{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\nYou can find them by opening each of your files and having a look, or use GitHub’s search for the keyword knitr"
   }
 ]

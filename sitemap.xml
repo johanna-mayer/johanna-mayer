@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/index.html</loc>
-    <lastmod>2026-11-08T20:27:10.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/index.html</loc>
-    <lastmod>2026-11-08T20:27:10.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/rstudio.html</loc>
-    <lastmod>2026-11-08T20:27:10.746Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/publications.html</loc>
-    <lastmod>2026-11-08T20:27:10.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/explore.html</loc>
-    <lastmod>2026-11-08T20:27:10.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/comic.html</loc>
-    <lastmod>2026-11-08T20:27:10.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/learning-more.html</loc>
-    <lastmod>2026-11-08T20:27:10.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/transition-from-rmarkdown.html</loc>
-    <lastmod>2026-11-08T20:27:10.746Z</lastmod>
-  </url>
-  <url>
     <loc>https://johanna-mayer.github.io/johanna-mayer/research.html</loc>
-    <lastmod>2026-11-08T20:27:10.746Z</lastmod>
+    <lastmod>2026-11-10T18:13:07.713Z</lastmod>
   </url>
   <url>
-    <loc>https://johanna-mayer.github.io/johanna-mayer/cv.html</loc>
-    <lastmod>2026-11-08T20:27:10.681Z</lastmod>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/index.html</loc>
+    <lastmod>2026-11-10T18:13:07.684Z</lastmod>
   </url>
   <url>
     <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/jupyter.html</loc>
-    <lastmod>2026-11-08T20:27:10.746Z</lastmod>
+    <lastmod>2026-11-10T18:13:07.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/rstudio.html</loc>
+    <lastmod>2026-11-10T18:13:07.713Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/publications.html</loc>
+    <lastmod>2026-11-10T18:13:07.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/cv.html</loc>
+    <lastmod>2026-11-10T18:13:07.618Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/comic.html</loc>
+    <lastmod>2026-11-10T18:13:07.618Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/learning-more.html</loc>
+    <lastmod>2026-11-10T18:13:07.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/explore.html</loc>
+    <lastmod>2026-11-10T18:13:07.618Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/index.html</loc>
+    <lastmod>2026-11-10T18:13:07.713Z</lastmod>
   </url>
   <url>
     <loc>https://johanna-mayer.github.io/johanna-mayer/quarto-workflows/browser.html</loc>
-    <lastmod>2026-11-08T20:27:10.726Z</lastmod>
+    <lastmod>2026-11-10T18:13:07.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://johanna-mayer.github.io/johanna-mayer/transition-from-rmarkdown.html</loc>
+    <lastmod>2026-11-10T18:13:07.713Z</lastmod>
   </url>
 </urlset>

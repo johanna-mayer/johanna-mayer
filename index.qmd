@@ -9,7 +9,7 @@ title-block-banner: images/MODIS-2026-08-27.png
 ::: {.column width="65%"}
 I am an atmospheric physicist specializing in satellite remote sensing of clouds. My research combines physical understanding, statistical methods, and machine learning to investigate cloud properties, processes, and their role in the climate system.
 
-I am currently an (Internal Research Fellow)[https://sciencehub.esa.int/sciencehub_team/johanna-mayer/] at the (European Space Agency (ESA/ESRIN))[https://www.esa.int/], where I mainly work with observations from the EarthCARE satellite mission in combination with geostationary satellites. A central focus of my research is marine stratocumulus: how these clouds are organized, how their structure changes over time, and how precipitation and aerosol–cloud interactions influence their evolution.
+I am currently an [Internal Research Fellow](https://sciencehub.esa.int/sciencehub_team/johanna-mayer/) at the [European Space Agency (ESA/ESRIN)](https://www.esa.int/), where I mainly work with observations from the EarthCARE satellite mission in combination with geostationary satellites. A central focus of my research is marine stratocumulus: how these clouds are organized, how their structure changes over time, and how precipitation and aerosol–cloud interactions influence their evolution.
 :::
 
 ::: {.column width="35%"}

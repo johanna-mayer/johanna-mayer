@@ -10,7 +10,7 @@ last update (Sep. 2026). Updated listing under [Google Scholar](https://scholar.
 
 - **J. Mayer**, D. Gasbarra, R.J. Hogan, E. Malina, S. Mason, B. Piskala Gvozdikova (2026).  
   EarthCARE reveals details on the role of rain in closed-to-open cell transitions,  
-  EGUsphere [preprint], doi:10.5194/egusphere-2026-3000
+  Atmospheric Chemistry and Physics, doi:10.5194/acp-26-14085-2026
 
 - J. Schaefer, S. Grawe, H.-C. Clemen, S. Mertes, J. Schneider, B. Wetzel, D. Sauer, J. Wolf, L. Tomsche, **J. Mayer**, R. Schrödner, S. Henning, T. Jurkat-Witschas, C. Voigt, H. Ziereis, T. Harlaß, M. Pöhlker, F. Stratmann (2026).  
   Upward transport and segregation of ice-nucleating particles in deep convective clouds.  
